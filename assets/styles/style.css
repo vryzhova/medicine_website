@@ -1,0 +1,23 @@
+@font-face {
+    font-family: TTHoves-Regular;
+    src: url('/assets/fonts/TTHoves-Regular.woff') format('woff'),
+        url('/assets/fonts/TTHoves-Regular.ttf');
+}
+
+@font-face {
+    font-family: TTHoves-DemiBold;
+    src: url('/assets/fonts/TTHoves-DemiBold.woff') format('woff'),
+        url('/assets/fonts/TTHoves-DemiBold.ttf');
+}
+
+@font-face {
+    font-family: TTHoves-ExtraBold;
+    src: url('/assets/fonts/TTHoves-ExtraBold.woff') format('woff'),
+        url('/assets/fonts/TTHoves-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: TTHoves-Medium;
+    src: url('/assets/fonts/TTHoves-Medium.woff') format('woff'),
+        url('/assets/fonts/TTHoves-Medium.ttf');
+}
