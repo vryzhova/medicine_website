@@ -21,3 +21,10 @@
     src: url('/assets/fonts/TTHoves-Medium.woff') format('woff'),
         url('/assets/fonts/TTHoves-Medium.ttf');
 }
+
+.main__title {
+    font-family: TTHoves-ExtraBold;
+    font-size: 28px;
+    color: #32495E;
+
+}
