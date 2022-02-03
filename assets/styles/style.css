@@ -54,6 +54,11 @@
     padding-top: 20px;
 }
 
+.header {
+    background-color: #E95258;
+    background: linear-gradient(to right, #E95258 50%, white 50%);
+}
+
 .header__nav {
     display: flex;
     align-items: center;
@@ -64,4 +69,17 @@
 
 .header__nav-list {
     padding-right: 40px;
+}
+
+.services__block {
+    display: flex;
+    flex-direction: column;
+}
+
+.services__block-text {
+    font-family: 'TT Hoves', 'Times New Roman', Times, serif;
+    font-weight: 800;
+    line-height: 16px;
+    line-height: 19.92px;
+
 }
