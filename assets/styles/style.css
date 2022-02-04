@@ -22,16 +22,20 @@
         url('/assets/fonts/TTHoves-Medium.ttf');
 }
 
-.main__title {
+.main__title__dark {
     font-family: TTHoves-ExtraBold;
     font-size: 28px;
     color: #32495E;
+}
 
+.main__title__white {
+    font-family: TTHoves-ExtraBold;
+    font-size: 28px;
+    color: #ffffff;
 }
 
 .all_services {
-    background-color: white;
-    color: 32495E;
+    color: #32495E;
     border: 1px solid #32495E;
     width: 160px;
     height: 50px;
@@ -41,8 +45,20 @@
     line-height: 17px;
     padding-top: 15px;
     font-family: 'TT Hoves', 'Times New Roman', Times, serif;
+}
+
+.row {
+    font-family: 'TTHoves-Medium', 'Times New Roman', Times, serif;
 
 }
+
+.light_btn {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+
+}
+
+
 
 .header {
     display: flex;
@@ -51,12 +67,12 @@
     align-items: center;
     padding-left: 115px;
     padding-right: 75px;
-    padding-top: 20px;
+
 }
 
 .header {
     background-color: #E95258;
-    background: linear-gradient(to right, #E95258 50%, white 50%);
+    background: linear-gradient(to right, #E95258 50%, #F9F9F9 50%);
 }
 
 .header__nav {
@@ -65,6 +81,8 @@
     list-style-type: none;
     font-size: 14px;
     line-height: 18px;
+    font-family: 'TTHoves-Medium', 'Times New Roman', Times, serif;
+
 }
 
 .header__nav-list {
@@ -81,5 +99,96 @@
     font-weight: 800;
     line-height: 16px;
     line-height: 19.92px;
+}
 
+.main__about {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.main__about__cardio {
+    background-color: #E95258;
+}
+
+.main__about__cardio__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: end;
+    box-sizing: border-box;
+    margin-top: 90px;
+    margin-bottom: 50px;
+    padding-right: 100px;
+    color: white;
+
+}
+
+ul {
+    padding: 20px;
+}
+
+.main__about__travm {
+    background-color: #F9F9F9;
+}
+
+.main__about__travm__info {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-left: 100px;
+    margin-top: 90px;
+    margin-bottom: 50px;
+    color: #32495E;
+}
+
+html {
+    font-size: 1rem;
+}
+
+.price-list__header {
+    font-size: 14px;
+
+}
+
+.price-list__service {
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 19.92px;
+    font-family: 'TT Hoves', 'Times New Roman', Times, serif;
+    color: #8093AC;
+    padding-bottom: 20px;
+}
+
+.price-list__price {
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 19.92px;
+    font-family: 'TT Hoves', 'Times New Roman', Times, serif;
+    color: #32495E;
+    padding-bottom: 20px;
+}
+
+.price-list__services {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.43px;
+    font-family: 'TT Hoves', 'Times New Roman', Times, serif;
+    color: #32495E;
+    padding-bottom: 30px;
+}
+
+.header__price-list {
+    font-family: 'TT Hoves', 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 52px;
+    color: #32495E;
+    padding-bottom: 20px;
+}
+
+.price-list__button {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }

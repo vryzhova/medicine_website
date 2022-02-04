@@ -15,22 +15,24 @@
 <body>
     <header class="row header">
         <div class="col header__logo">
-            <img src="" alt="Logo">
+            <img src="./assets/images/header-main-logo.svg" alt="Logo">
         </div>
 
         <div class="col nav">
+        <div class="nav">
             <ul class="header__nav">
                 <li class="header__nav-list">Главная</li>
                 <li class="header__nav-list">
                     <div class="btn-group">
-                        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Наши услуги</button> 
+                        <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">Наши услуги</button>
                         <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Травма-реабилитационный центр</a>
-                        <a class="dropdown-item" href="#">Кардио-реабилитационный центр</a>
-                        <a class="dropdown-item" href="#">Травма-реабилитационный центр</a>
-                        <a class="dropdown-item" href="#">Кардио-реабилитационный центр</a>
-                    </div>
-                </li>  
+                            <a class="dropdown-item" href="#">Травма-реабилитационный центр</a>
+                            <a class="dropdown-item" href="#">Кардио-реабилитационный центр</a>
+                            <a class="dropdown-item" href="#">Травма-реабилитационный центр</a>
+                            <a class="dropdown-item" href="#">Кардио-реабилитационный центр</a>
+                        </div>
+                </li>
                 <li class="header__nav-list">Отчеты</li>
                 <li class="header__nav-list">О нас</li>
                 <li class="header__nav-list">Новости</li>
@@ -39,39 +41,165 @@
         </div>
     </header>
     <main class="main">
-        <h1 class="main__title">ТРАВМА-РЕАБИЛИТАЦИОННЫЙ ЦЕНТР</h1>
+        <section class="main__about">
+            <div class="main__about__cardio">
+                <div class="main__about__cardio__info">
+                    <h1 class="main__title__white">КАРДИО-РЕАБИЛИТАЦИОННЫЙ<br> ЦЕНТР </h1>
+                    <p>Lorem Ipsum is simply dummy <br>
+                        text of the printing and <br>
+                        typesetting industry. Lorem <br>
+                        Ipsum has been the industry's standard<br>
+                        dummy text ever since the</p>
+                    <ul type="circle">
+                        <li>Название услуги</li>
+                        <li>Название услуги</li>
+                        <li>Название услуги</li>
+                        <li>Название услуги</li>
+                    </ul>
+                    <a href="#" type="button" class="btn all_services light_btn rounded-pill">Все услуги</a>
+                </div>
+
+            </div>
+            <div class="main__about__travm">
+                <div class="main__about__travm__info">
+                    <h1 class="main__title__dark">ТРАВМА-РЕАБИЛИТАЦИОННЫЙ<br> ЦЕНТР</h1>
+                    <p>Lorem Ipsum is simply dummy <br>
+                        text of the printing and <br>
+                        typesetting industry. Lorem <br>
+                        Ipsum has been the industry's standard<br>
+                        dummy text ever since the</p>
+                    <ul type="circle">
+                        <li>Название услуги</li>
+                        <li>Название услуги</li>
+                        <li>Название услуги</li>
+                        <li>Название услуги</li>
+                    </ul>
+                    <a href="#" type="button" class="btn all_services  rounded-pill">Все услуги</a>
+                </div>
+
+            </div>
+
+        </section>
+        <section class="services">
+            <a href="#" type="button" class="btn all_services rounded-pill">Все услуги</a>
+        </section>
+        <section class="specialists"></section>
+        <section class="price-list"></section>
+        <section class="media"></section>
+        <section class="news"></section>
+        <section class="qa"></section>
+        <section class="recommend"></section>
+        <section class="contacts"></section>
     </main>
     <section class="container services">
         <div class="row">
             <div class="col-3 services__block">
-                <img src="" alt="Foto">
+                <img src="./assets/images/services-img1.jpg" alt="Foto">
                 <p class="services__block-text">Кардио-реаблитационный центр</p>
             </div>
 
             <div class="col-3 services__block">
-                <img src="" alt="Foto">
+                <img src="./assets/images/services-img2.jpg" alt="Foto">
                 <p class="services__block-text">Травма-реабилитационный центр</p>
             </div>
 
             <div class="col-3 services__block">
-                <img src="" alt="Foto">
+                <img src="./assets/images/services-img3.jpg" alt="Foto">
                 <p class="services__block-text">Кафе еда и еще слова что бы было две строки</p>
             </div>
 
             <div class="col-3 services__block">
-                <img src="" alt="Foto">
+                <img src="./assets/images/services-img4.jpg" alt="Foto">
                 <p class="services__block-text">Сауна высшего класса для восстановления</p>
             </div>
         </div>
-        <a href="#" type="button" class="btn all_services rounded-pill">Все услуги</a>
+        <div>
+            <a href="#" type="button" class="btn all_services rounded-pill">Все услуги</a>
+        </div>
+        
     </section>
     <section class="specialists"></section>
-    <section class="price-list"></section>
+    <section class="price-list">
+        <div class="container">
+            <h2 class="header__price-list">ПРАЙС ЛИСТ</h2>
+            <div class="row price-list__header"> 
+                <div class="col-4 price-list__services">Название услуги</div>
+                <div class="col-2 price-list__services">Стоимость</div>
+                <div class="col-4 price-list__services">Название услуги</div>
+                <div class="col-2 price-list__services">Стоимость</div>
+            </div> 
+
+            <div class="row"> 
+                <div class="col-4 price-list__service">Название услуги в несколько строк</div>
+                <div class="col-2 price-list__price">3000 / час</div>
+                <div class="col-4 price-list__service">Название услуги в несколько строк</div>
+                <div class="col-2 price-list__price">3000 / час</div>
+            </div> 
+
+            <div class="row"> 
+                <div class="col-4 price-list__service">Название услуги в несколько строк</div>
+                <div class="col-2 price-list__price">3000 / час</div>
+                <div class="col-4 price-list__service">Название услуги в несколько строк</div>
+                <div class="col-2 price-list__price">3000 / час</div>
+            </div> 
+
+            <div class="row"> 
+                <div class="col-4 price-list__service">Название услуги в несколько строк</div>
+                <div class="col-2 price-list__price">3000 / час</div>
+                <div class="col-4 price-list__service">Название услуги в несколько строк</div>
+                <div class="col-2 price-list__price">3000 / час</div>
+            </div> 
+
+            <div class="row"> 
+                <div class="col-4 price-list__service">Название услуги в несколько строк</div>
+                <div class="col-2 price-list__price">3000 / час</div>
+                <div class="col-4 price-list__service">Название услуги в несколько строк</div>
+                <div class="col-2 price-list__price">3000 / час</div>
+            </div> 
+
+            <div class="row"> 
+                <div class="col-4 price-list__service">Название услуги в несколько строк</div>
+                <div class="col-2 price-list__price">3000 / час</div>
+                <div class="col-4 price-list__service">Название услуги в несколько строк</div>
+                <div class="col-2 price-list__price">3000 / час</div>
+            </div> 
+
+            <div class="row"> 
+                <div class="col-4 price-list__service">Название услуги в несколько строк</div>
+                <div class="col-2 price-list__price">3000 / час</div>
+                <div class="col-4 price-list__service">Название услуги в несколько строк</div>
+                <div class="col-2 price-list__price">3000 / час</div>
+            </div> 
+
+            <div class="row"> 
+                <div class="col-4 price-list__service">Название услуги в несколько строк</div>
+                <div class="col-2 price-list__price">3000 / час</div>
+                <div class="col-4 price-list__service">Название услуги в несколько строк</div>
+                <div class="col-2 price-list__price">3000 / час</div>
+            </div> 
+
+            <div class="price-list__button">
+                <a href="#" type="button" class="btn all_services rounded-pill">Все услуги</a>
+            </div>
+            
+        </div>
+
+    </section>
     <section class="media"></section>
     <section class="news"></section>
     <section class="qa"></section>
     <section class="recommend"></section>
     <section class="contacts"></section>
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-3"></div>
+                <div class="col-3"></div>
+                <div class="col-3"></div>
+            </div>
+        </div>
+    </footer>
     <footer class="footer"></footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
