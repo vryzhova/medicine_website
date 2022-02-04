@@ -34,6 +34,13 @@
     color: #ffffff;
 }
 
+.specialists__title {
+    font-size: 44px;
+    padding-top: 70px;
+    margin-bottom: 60px;
+}
+
+
 .all_services {
     color: #32495E;
     border: 1px solid #32495E;
@@ -47,13 +54,17 @@
     font-family: 'TT Hoves', 'Times New Roman', Times, serif;
 }
 
-
+.row {
+    font-family: 'TTHoves-Medium', 'Times New Roman', Times, serif;
+}
 
 .light_btn {
     border: 1px solid #ffffff;
     color: #ffffff;
 
 }
+
+
 
 .header {
     display: flex;
@@ -65,6 +76,10 @@
 
 }
 
+.header {
+    background-color: #E95258;
+    background: linear-gradient(to right, #E95258 50%, #F9F9F9 50%);
+}
 
 .header__nav {
     display: flex;
@@ -80,6 +95,18 @@
     padding-right: 40px;
 }
 
+.services__block {
+    display: flex;
+    flex-direction: column;
+}
+
+.services__block-text {
+    font-family: 'TT Hoves', 'Times New Roman', Times, serif;
+    font-weight: 800;
+    line-height: 16px;
+    line-height: 19.92px;
+}
+
 .main__about {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -87,8 +114,6 @@
 
 .main__about__cardio {
     background-color: #E95258;
-
-
 }
 
 .main__about__cardio__info {
@@ -122,6 +147,46 @@ ul {
     color: #32495E;
 }
 
+.specialists {
+    height: 880px;
+
+    background-color: #F9F9F9;
+
+}
+
+.specialists__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 50% 50%;
+    column-gap: 75px;
+    justify-items: baseline;
+}
+
+.specialists__photo {
+    margin-bottom: 30px;
+    border-radius: 50%;
+
+}
+
+.specialists__name {
+    font-family: TTHoves-ExtraBold;
+    font-size: 16px;
+    color: #32495E;
+}
+
+.specialists__name-info {
+    margin-bottom: 55px;
+    font-family: TTHoves-Medium;
+    font-size: 14px;
+    color: #32495E;
+    text-align: justify;
+}
+
+.btn-center {
+
+    text-align: center;
+}
+
 html {
     font-size: 1rem;
 }
@@ -143,4 +208,52 @@ html {
 .footer__col_logo {
     padding-left: 115px;
     padding-top: 40px;
+}
+
+.price-list__header {
+    font-size: 14px;
+
+}
+
+.price-list__service {
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 19.92px;
+    font-family: 'TT Hoves', 'Times New Roman', Times, serif;
+    color: #8093AC;
+    padding-bottom: 20px;
+}
+
+.price-list__price {
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 19.92px;
+    font-family: 'TT Hoves', 'Times New Roman', Times, serif;
+    color: #32495E;
+    padding-bottom: 20px;
+}
+
+.price-list__services {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.43px;
+    font-family: 'TT Hoves', 'Times New Roman', Times, serif;
+    color: #32495E;
+    padding-bottom: 30px;
+}
+
+.header__price-list {
+    font-family: 'TT Hoves', 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 52px;
+    color: #32495E;
+    padding-bottom: 20px;
+}
+
+.price-list__button {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }

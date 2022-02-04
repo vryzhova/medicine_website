@@ -13,10 +13,12 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="logo">
-            <img src="" alt="Logo">
+    <header class="row header">
+        <div class="col header__logo">
+            <img src="./assets/images/header-main-logo.svg" alt="Logo">
         </div>
+
+        <div class="col nav">
         <div class="nav">
             <ul class="header__nav">
                 <li class="header__nav-list">Главная</li>
@@ -74,21 +76,169 @@
                     </ul>
                     <a href="#" type="button" class="btn all_services  rounded-pill">Все услуги</a>
                 </div>
-
             </div>
 
         </section>
-        <section class="services">
-            <a href="#" type="button" class="btn all_services rounded-pill">Все услуги</a>
-        </section>
-        <section class="specialists"></section>
-        <section class="price-list"></section>
-        <section class="media"></section>
-        <section class="news"></section>
-        <section class="qa"></section>
-        <section class="recommend"></section>
-        <section class="contacts"></section>
     </main>
+    <section class="container services">
+        <div class="row">
+            <div class="col-3 services__block">
+                <img src="./assets/images/services-img1.jpg" alt="Foto">
+                <p class="services__block-text">Кардио-реаблитационный центр</p>
+            </div>
+
+            <div class="col-3 services__block">
+                <img src="./assets/images/services-img2.jpg" alt="Foto">
+                <p class="services__block-text">Травма-реабилитационный центр</p>
+            </div>
+
+            <div class="col-3 services__block">
+                <img src="./assets/images/services-img3.jpg" alt="Foto">
+                <p class="services__block-text">Кафе еда и еще слова что бы было две строки</p>
+            </div>
+
+            <div class="col-3 services__block">
+                <img src="./assets/images/services-img4.jpg" alt="Foto">
+                <p class="services__block-text">Сауна высшего класса для восстановления</p>
+            </div>
+        </div>
+        <div>
+            <a href="#" type="button" class="btn all_services rounded-pill">Все услуги</a>
+        </div>
+        
+    </section>
+    <section class="specialists"></section>
+    <section class="price-list">
+        <div class="container">
+            <h2 class="header__price-list">ПРАЙС ЛИСТ</h2>
+            <div class="row price-list__header"> 
+                <div class="col-4 price-list__services">Название услуги</div>
+                <div class="col-2 price-list__services">Стоимость</div>
+                <div class="col-4 price-list__services">Название услуги</div>
+                <div class="col-2 price-list__services">Стоимость</div>
+            </div> 
+
+            <div class="row"> 
+                <div class="col-4 price-list__service">Название услуги в несколько строк</div>
+                <div class="col-2 price-list__price">3000 / час</div>
+                <div class="col-4 price-list__service">Название услуги в несколько строк</div>
+                <div class="col-2 price-list__price">3000 / час</div>
+            </div> 
+
+            <div class="row"> 
+                <div class="col-4 price-list__service">Название услуги в несколько строк</div>
+                <div class="col-2 price-list__price">3000 / час</div>
+                <div class="col-4 price-list__service">Название услуги в несколько строк</div>
+                <div class="col-2 price-list__price">3000 / час</div>
+            </div> 
+
+            <div class="row"> 
+                <div class="col-4 price-list__service">Название услуги в несколько строк</div>
+                <div class="col-2 price-list__price">3000 / час</div>
+                <div class="col-4 price-list__service">Название услуги в несколько строк</div>
+                <div class="col-2 price-list__price">3000 / час</div>
+            </div> 
+
+            <div class="row"> 
+                <div class="col-4 price-list__service">Название услуги в несколько строк</div>
+                <div class="col-2 price-list__price">3000 / час</div>
+                <div class="col-4 price-list__service">Название услуги в несколько строк</div>
+                <div class="col-2 price-list__price">3000 / час</div>
+            </div> 
+
+            <div class="row"> 
+                <div class="col-4 price-list__service">Название услуги в несколько строк</div>
+                <div class="col-2 price-list__price">3000 / час</div>
+                <div class="col-4 price-list__service">Название услуги в несколько строк</div>
+                <div class="col-2 price-list__price">3000 / час</div>
+            </div> 
+
+            <div class="row"> 
+                <div class="col-4 price-list__service">Название услуги в несколько строк</div>
+                <div class="col-2 price-list__price">3000 / час</div>
+                <div class="col-4 price-list__service">Название услуги в несколько строк</div>
+                <div class="col-2 price-list__price">3000 / час</div>
+            </div> 
+
+            <div class="row"> 
+                <div class="col-4 price-list__service">Название услуги в несколько строк</div>
+                <div class="col-2 price-list__price">3000 / час</div>
+                <div class="col-4 price-list__service">Название услуги в несколько строк</div>
+                <div class="col-2 price-list__price">3000 / час</div>
+            </div> 
+
+            <div class="price-list__button">
+                <a href="#" type="button" class="btn all_services rounded-pill">Все услуги</a>
+            </div>
+            
+        </div>
+
+    </section>
+    <section class="specialists">
+        <div class="container">
+            <h2 class="main__title__dark specialists__title">Наши специалисты</h2>
+            <div class="specialists__list">
+                <div class="specialists__item">
+                    <img class="specialists__photo" src="assets/images/specialists-img1.jpg" alt="Фото специалиста">
+                    <h3 class="specialists__name">Доктор Аблай Туркесович</h3>
+                    <p class="specialists__name-info">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+                </div>
+                <div class="specialists__item">
+                    <img class="specialists__photo" src="assets/images/specialists-img2.jpg" alt="Фото специалиста">
+                    <h3 class="specialists__name">Доктор Аблай Туркесович</h3>
+                    <p class="specialists__name-info">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+                </div>
+                <div class="specialists__item">
+                    <img class="specialists__photo" src="assets/images/specialists-img3.jpg" alt="Фото специалиста">
+                    <h3 class="specialists__name">Доктор Аблай Туркесович</h3>
+                    <p class="specialists__name-info">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+                </div>
+                <div class="specialists__item">
+                    <img class="specialists__photo" src="assets/images/specialists-img4.jpg" alt="Фото специалиста">
+                    <h3 class="specialists__name">Доктор Аблай Туркесович</h3>
+                    <p class="specialists__name-info">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+                </div>
+                <div class="specialists__item">
+                    <img class="specialists__photo" src="assets/images/specialists-img1.jpg" alt="Фото специалиста">
+                    <h3 class="specialists__name">Доктор Аблай Туркесович</h3>
+                    <p class="specialists__name-info">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+                </div>
+                <div class="specialists__item">
+                    <img class="specialists__photo" src="assets/images/specialists-img2.jpg" alt="Фото специалиста">
+                    <h3 class="specialists__name">Доктор Аблай Туркесович</h3>
+                    <p class="specialists__name-info">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+                </div>
+                <div class="specialists__item">
+                    <img class="specialists__photo" src="assets/images/specialists-img3.jpg" alt="Фото специалиста">
+                    <h3 class="specialists__name">Доктор Аблай Туркесович</h3>
+                    <p class="specialists__name-info">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+                </div>
+                <div class="specialists__item">
+                    <img class="specialists__photo" src="assets/images/specialists-img4.jpg" alt="Фото специалиста">
+                    <h3 class="specialists__name">Доктор Аблай Туркесович</h3>
+                    <p class="specialists__name-info">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+                </div>
+            </div>
+            <div class="btn-center">
+                <a href="#" class="btn all_services  rounded-pill">Подробнее</a>
+            </div>
+        </div>
+    </section>
+    <section class="price-list"></section>
+    <section class="media"></section>
+    <section class="news"></section>
+    <section class="qa"></section>
+    <section class="recommend"></section>
+    <section class="contacts"></section>
+
     <a href="#" type="button" class="btn all_services rounded-pill">Все услуги</a>
     <footer class="footer">
         <div class="container-fluid footer">
@@ -105,10 +255,10 @@
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
-    </script>
+        </script>
 </body>
 
 </html>
