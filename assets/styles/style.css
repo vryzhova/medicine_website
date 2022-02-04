@@ -47,11 +47,7 @@
     font-family: 'TT Hoves', 'Times New Roman', Times, serif;
 }
 
-.row {
-    border: 1px solid red;
-    font-family: 'TTHoves-Medium', 'Times New Roman', Times, serif;
 
-}
 
 .light_btn {
     border: 1px solid #ffffff;
@@ -128,4 +124,23 @@ ul {
 
 html {
     font-size: 1rem;
+}
+
+.footer {
+    background-color: #333333;
+}
+
+.row {
+    border: 1px solid red;
+    font-family: 'TTHoves-Medium', 'Times New Roman', Times, serif;
+
+}
+
+.footer__col {
+    border: 1px solid red;
+}
+
+.footer__col_logo {
+    padding-left: 115px;
+    padding-top: 40px;
 }
