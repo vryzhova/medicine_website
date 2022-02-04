@@ -34,6 +34,13 @@
     color: #ffffff;
 }
 
+.specialists__title {
+    font-size: 44px;
+    padding-top: 70px;
+    margin-bottom: 60px;
+}
+
+
 .all_services {
     color: #32495E;
     border: 1px solid #32495E;
@@ -139,6 +146,46 @@ ul {
     margin-top: 90px;
     margin-bottom: 50px;
     color: #32495E;
+}
+
+.specialists {
+    height: 880px;
+
+    background-color: #F9F9F9;
+
+}
+
+.specialists__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 50% 50%;
+    column-gap: 75px;
+    justify-items: baseline;
+}
+
+.specialists__photo {
+    margin-bottom: 30px;
+    border-radius: 50%;
+
+}
+
+.specialists__name {
+    font-family: TTHoves-ExtraBold;
+    font-size: 16px;
+    color: #32495E;
+}
+
+.specialists__name-info {
+    margin-bottom: 55px;
+    font-family: TTHoves-Medium;
+    font-size: 14px;
+    color: #32495E;
+    text-align: justify;
+}
+
+.btn-center {
+
+    text-align: center;
 }
 
 html {
