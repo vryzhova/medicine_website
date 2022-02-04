@@ -113,7 +113,18 @@
 }
 
 .main__about__cardio {
+    position: relative;
     background-color: #E95258;
+}
+
+.main__about__cardio__photo {
+    position: absolute;
+    width: 395px;
+    height: 557px;
+    bottom: 0;
+    left: -70px;
+    background-repeat: no-repeat;
+    background-image: url(/assets/images/main-img1.png);
 }
 
 .main__about__cardio__info {
