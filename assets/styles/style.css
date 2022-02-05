@@ -222,7 +222,8 @@ html {
     padding-bottom: 30px;
 }
 
-.header__price-list {
+.header__price-list,
+.header__news {
     font-family: 'TT Hoves', 'Times New Roman', Times, serif;
     font-weight: 800;
     font-size: 44px;
@@ -236,6 +237,52 @@ html {
     justify-content: center;
     padding-top: 20px;
     padding-bottom: 40px;
+}
+
+.news__cards {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.news__cards_img {
+    position: relative;
+    width: 100%;
+}
+
+.news__cards_card {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    background-color: #E95258;
+    padding: 19px;
+}
+
+.news__cards_title {
+    font-family: 'TT Hoves', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    color: #F9F9F9;
+}
+
+.news__cards_text {
+    font-family: 'TT Hoves', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F9F9F9;
+}
+
+.news__cards_card-link {
+    font-family: 'TT Hoves', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F9F9F9;
 }
 
 .footer {
