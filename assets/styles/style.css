@@ -104,14 +104,10 @@
     line-height: 19.92px;
 }
 
-
-
 .main__about__cardio {
     position: relative;
     background-color: #E95258;
 }
-
-
 
 .main__about__cardio__info {
     display: flex;
@@ -252,8 +248,8 @@ html {
 .news__cards_card {
     position: absolute;
     bottom: 0;
-    width: 100%;
-    left: 0;
+    right: 15px;
+    left: 15px;
     background-color: #E95258;
     padding: 19px;
 }
