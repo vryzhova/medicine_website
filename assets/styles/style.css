@@ -61,10 +61,7 @@
 .light_btn {
     border: 1px solid #ffffff;
     color: #ffffff;
-
 }
-
-
 
 .header {
     display: flex;
@@ -194,7 +191,6 @@ ul {
 }
 
 .btn-center {
-
     text-align: center;
 }
 
@@ -202,28 +198,8 @@ html {
     font-size: 1rem;
 }
 
-.footer {
-    background-color: #333333;
-}
-
-.row {
-    border: 1px solid red;
-    font-family: 'TTHoves-Medium', 'Times New Roman', Times, serif;
-
-}
-
-.footer__col {
-    border: 1px solid red;
-}
-
-.footer__col_logo {
-    padding-left: 115px;
-    padding-top: 40px;
-}
-
 .price-list__header {
     font-size: 14px;
-
 }
 
 .price-list__service {
@@ -267,4 +243,53 @@ html {
     justify-content: center;
     padding-top: 20px;
     padding-bottom: 40px;
+}
+
+.footer {
+    background-color: #333333;
+}
+
+.footer__col_logo,
+.footer__col_title,
+.footer__col_arrows {
+    padding-top: 40px;
+}
+
+.footer__col_title {
+    font-family: 'TT Hoves', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    color: #F9F9F9;
+}
+
+.footer__col_link {
+    font-family: 'TT Hoves', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F9F9F9;
+    padding-bottom: 40px;
+}
+
+.footer__col_title-link {
+    color: #F9F9F9;
+}
+
+.footer__col_up {
+    font-family: 'TT Hoves', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F9F9F9;
+    transform: rotate(-90deg);
+}
+
+@media screen and (max-width:768px) {
+    .footer__col_up {
+        display: none;
+    }
 }
