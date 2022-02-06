@@ -96,6 +96,39 @@
     padding-right: 40px;
 }
 
+.header__services {
+    font-family: TTHoves-DemiBold;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 52px;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    color: #F9F9F9;
+}
+
+.services {
+    background-color: #32495E;
+}
+
+.services__button {
+    color: #F9F9F9;
+    border: 1px solid #F9F9F9;
+    width: 160px;
+    height: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 17px;
+    padding-top: 15px;
+    font-family: 'TT Hoves', 'Times New Roman', Times, serif;
+}
+
+.header__services-btn {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+
 .services__block {
     display: flex;
     flex-direction: column;
@@ -104,8 +137,10 @@
 .services__block-text {
     font-family: 'TT Hoves', 'Times New Roman', Times, serif;
     font-weight: 800;
-    line-height: 16px;
+    font-size: 16px;
     line-height: 19.92px;
+    color: #F9F9F9;
+    padding-top: 20px;
 }
 
 .main__about {
@@ -231,6 +266,10 @@ html {
     line-height: 52px;
     color: #32495E;
     padding-bottom: 20px;
+}
+
+.header__list-btn {
+    font-size: 14px;
 }
 
 .price-list__button {
