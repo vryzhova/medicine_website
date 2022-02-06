@@ -218,14 +218,26 @@ html {
     padding-bottom: 30px;
 }
 
-.header__price-list,
-.header__news {
+.header__price-list {
     font-family: 'TT Hoves', 'Times New Roman', Times, serif;
     font-weight: 800;
     font-size: 44px;
     line-height: 52px;
     color: #32495E;
     padding-bottom: 20px;
+}
+
+.header__news {
+    font-family: 'TT Hoves', 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 52px;
+    color: #32495E;
+    margin-top: 30px;
+}
+
+.header__news_card {
+    margin-top: 30px;
 }
 
 .price-list__button {
@@ -279,6 +291,27 @@ html {
     font-size: 14px;
     line-height: 17px;
     color: #F9F9F9;
+}
+
+.news__button {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.qa__container {
+    background-color: #49647D;
+    ;
+}
+
+.qa__header {
+    font-family: 'TT Hoves', 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 52px;
+    color: #F9F9F9;
+    margin-top: 70px;
+    background-color: #49647D;
 }
 
 .footer {
