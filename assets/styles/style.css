@@ -180,16 +180,13 @@ ul {
 }
 
 .specialists {
-    height: 880px;
 
     background-color: #F9F9F9;
-
 }
 
 .specialists__list {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 50% 50%;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     column-gap: 75px;
     justify-items: baseline;
 }
@@ -216,6 +213,8 @@ ul {
 
 .btn-center {
     text-align: center;
+    padding-bottom: 70px;
+
 }
 
 html {
@@ -285,6 +284,47 @@ html {
     padding-top: 20px;
     padding-bottom: 40px;
 }
+
+.media {
+    background-color: #32495E;
+}
+
+.media__title {
+    margin-bottom: 35px;
+}
+
+.media__links {
+    margin-bottom: 55px;
+}
+
+.media__link {
+    color: #f9f9f9;
+    margin-right: 35px;
+
+}
+
+.media__list {
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+}
+
+.media__list>.media__item>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.light__btn {
+    color: #fff;
+    border: 1px solid #ffff;
+}
+
+.media__btn {
+    padding-top: 50px;
+}
+
 
 .news__cards {
     margin-top: 40px;
