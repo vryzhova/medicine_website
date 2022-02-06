@@ -314,6 +314,21 @@ html {
     background-color: #49647D;
 }
 
+.recommend__header {
+    font-size: 44px;
+    box-sizing: border-box;
+    margin-top: 70px;
+}
+
+.recommend_items {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-top: 50px;
+    padding-bottom: 35px;
+
+}
+
 .footer {
     background-color: #333333;
 }
