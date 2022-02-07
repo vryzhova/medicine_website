@@ -387,13 +387,18 @@ html {
     margin-top: 70px;
 }
 
-.recommend_items {
+.recommend__items {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     box-sizing: border-box;
     padding-top: 50px;
     padding-bottom: 35px;
 
+}
+
+.recommend__img {
+    object-fit: cover;
 }
 
 .footer {
@@ -443,6 +448,8 @@ html {
     .footer__col_up {
         display: none;
     }
+
+
 }
 
 footer li:not(:first-of-type) {
@@ -478,6 +485,7 @@ footer li:first-of-type {
         background-repeat: no-repeat;
         background-image: url(/assets/images/main-img2.png);
     }
+
 }
 
 @media screen and (max-width: 1023px) {
@@ -485,4 +493,6 @@ footer li:first-of-type {
         display: grid;
         grid-template-rows: 50% 50%;
     }
+
+
 }
