@@ -300,8 +300,12 @@ html {
 }
 
 .qa__container {
-    background-color: #49647D;
+    background-color: #32495E;
     ;
+}
+
+.qa__container_header {
+    background-color: #49647D;
 }
 
 .qa__header {
