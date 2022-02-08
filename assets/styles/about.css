@@ -1,25 +1,25 @@
 @font-face {
     font-family: TTHoves-Regular;
-    src: url('/assets/fonts/TTHoves-Regular.woff') format('woff'),
-        url('/assets/fonts/TTHoves-Regular.ttf');
+    src: url('../fonts/TTHoves-Regular.woff') format('woff'),
+        url('../fonts/TTHoves-Regular.ttf');
 }
 
 @font-face {
     font-family: TTHoves-DemiBold;
-    src: url('/assets/fonts/TTHoves-DemiBold.woff') format('woff'),
-        url('/assets/fonts/TTHoves-DemiBold.ttf');
+    src: url('../fonts/TTHoves-DemiBold.woff') format('woff'),
+        url('../fonts/TTHoves-DemiBold.ttf');
 }
 
 @font-face {
     font-family: TTHoves-ExtraBold;
-    src: url('../assets/fonts/TTHoves-ExtraBold.woff') format('woff'),
-        url('../assets/fonts/TTHoves-ExtraBold.ttf');
+    src: url('../fonts/TTHoves-ExtraBold.woff') format('woff'),
+        url('../fonts/TTHoves-ExtraBold.ttf');
 }
 
 @font-face {
     font-family: TTHoves-Medium;
-    src: url('/assets/fonts/TTHoves-Medium.woff') format('woff'),
-        url('/assets/fonts/TTHoves-Medium.ttf');
+    src: url('../fonts/TTHoves-Medium.woff') format('woff'),
+        url('../fonts/TTHoves-Medium.ttf');
 }
 
 /*header*/
@@ -35,13 +35,33 @@
 }
 
 .why__us-header {
-    font-family: TTHoves-ExtraBold;
+    font-family: 'TTHoves-ExtraBold', 'Times New Roman', Times, serif;
     font-size: 44px;
     color: #8093AC;
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+
+.test {
+    justify-content: center;
 }
 
 .why__us-adv {
     color: #F9F9F9;
+    font-family: 'TTHoves-ExtraBold', 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 19.92px;
+}
+
+.why__us-info {
+    font-family: 'TTHoves-Regular';
+    font-size: 14px;
+    line-height: 17.43px;
+    color: #F9F9F9;
+}
+
+.why__us__photo {
+    padding-bottom: 30px;
 }
 
 /*why__us end*/

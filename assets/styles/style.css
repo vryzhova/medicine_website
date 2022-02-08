@@ -22,15 +22,17 @@
         url('/assets/fonts/TTHoves-Medium.ttf');
 }
 
-.main__title__dark {
+.title__dark {
     font-family: TTHoves-ExtraBold;
-    font-size: 28px;
+    font-size: 44px;
+    line-height: 52px;
     color: #32495E;
 }
 
-.main__title__white {
+.title__white {
     font-family: TTHoves-ExtraBold;
-    font-size: 28px;
+    font-size: 44px;
+    line-height: 52px;
     color: #ffffff;
 }
 
@@ -73,6 +75,12 @@
     background: linear-gradient(to right, #E95258 50%, #F9F9F9 50%);
 }
 
+@media (max-width:1000px) {
+    .header {
+        background: #E95258;
+    }
+}
+
 .header__nav {
     display: flex;
     align-items: center;
@@ -94,13 +102,8 @@
 }
 
 .header__services {
-    font-family: TTHoves-DemiBold;
-    font-weight: 800;
-    font-size: 44px;
-    line-height: 52px;
     padding-top: 70px;
     padding-bottom: 40px;
-    color: #F9F9F9;
 }
 
 .services {
@@ -132,7 +135,8 @@
 }
 
 .services__block_img {
-    width: 260px;
+    position: relative;
+    width: 100%;
     height: 220px;
 }
 
@@ -151,11 +155,6 @@
     font-size: 14px;
     line-height: 17.43px;
     color: #F9F9F9;
-}
-
-.services__block_img {
-    position: relative;
-    width: 100%;
 }
 
 .services__block_card:active {
@@ -290,12 +289,17 @@ html {
     padding-bottom: 30px;
 }
 
-.header__price-list {
+.price-list__services1 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.43px;
     font-family: 'TT Hoves', 'Times New Roman', Times, serif;
-    font-weight: 800;
-    font-size: 44px;
-    line-height: 52px;
     color: #32495E;
+    padding-bottom: 30px;
+}
+
+.header__price-list {
+    padding-top: 70px;
     padding-bottom: 20px;
     padding-top: 70px;
 }
@@ -305,11 +309,6 @@ html {
 }
 
 .header__news {
-    font-family: 'TT Hoves', 'Times New Roman', Times, serif;
-    font-weight: 800;
-    font-size: 44px;
-    line-height: 52px;
-    color: #32495E;
     margin-top: 30px;
 }
 
@@ -418,8 +417,12 @@ html {
 }
 
 .qa__container {
-    background-color: #49647D;
+    background-color: #32495E;
     ;
+}
+
+.qa__container_header {
+    background-color: #49647D;
 }
 
 .qa__header {
@@ -438,13 +441,18 @@ html {
     margin-top: 70px;
 }
 
-.recommend_items {
+.recommend__items {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     box-sizing: border-box;
     padding-top: 50px;
     padding-bottom: 35px;
 
+}
+
+.recommend__img {
+    object-fit: cover;
 }
 
 .footer {
@@ -494,6 +502,11 @@ html {
     .header {
         background: #E95258;
     }
+
+    .price-list__services1 {
+        display: none;
+    }
+
 }
 
 @media screen and (max-width:768px) {
@@ -501,44 +514,63 @@ html {
         display: none;
     }
 
-    footer li:not(:first-of-type) {
-        margin-bottom: -40px;
+}
+
+footer li:not(:first-of-type) {
+    margin-bottom: -40px;
+}
+
+footer li:first-of-type {
+    margin-bottom: -40px;
+}
+
+@media screen and (min-width: 1024px) {
+    .main__about {
+        display: grid;
+        grid-template-columns: 50% 50%;
     }
 
-    footer li:first-of-type {
-        margin-bottom: -40px;
+    .travm__photo {
+        position: absolute;
+        width: 31%;
+        height: 75%;
+        bottom: 0;
+        left: 1020px;
+        background-repeat: no-repeat;
+        background-image: url(/assets/images/main-img2.png);
     }
+}
 
-    @media screen and (min-width: 1024px) {
-        .main__about {
-            display: grid;
-            grid-template-columns: 50% 50%;
-        }
+.сardio__photo {
+    position: absolute;
+    width: 55%;
+    height: 95%;
+    bottom: 0;
+    left: -70px;
+    background-repeat: no-repeat;
+    background-image: url(/assets/images/main-img1.png);
+}
 
-        .сardio__photo {
-            position: absolute;
-            width: 55%;
-            height: 95%;
-            bottom: 0;
-            left: -70px;
-            background-repeat: no-repeat;
-            background-image: url(/assets/images/main-img1.png);
-        }
+.travm__photo {
+    position: absolute;
+    width: 31%;
+    height: 75%;
+    bottom: 0;
+    left: 1020px;
+    background-repeat: no-repeat;
+    background-image: url(/assets/images/main-img2.png);
+}
 
-        .travm__photo {
-            position: absolute;
-            width: 31%;
-            height: 75%;
-            bottom: 0;
-            left: 1020px;
-            background-repeat: no-repeat;
-            background-image: url(/assets/images/main-img2.png);
-        }
+
+@media screen and (max-width: 1023px) {
+    .main__about {
+        display: grid;
+        grid-template-rows: 50% 50%;
     }
+}
 
-    @media screen and (max-width: 1023px) {
-        .main__about {
-            display: grid;
-            grid-template-rows: 50% 50%;
-        }
+@media (max-width:1000px) {
+    .header {
+        background: #E95258;
     }
+}
