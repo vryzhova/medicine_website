@@ -73,12 +73,13 @@
     align-items: center;
     padding-left: 115px;
     padding-right: 75px;
-
+    background: linear-gradient(to right, #E95258 50%, #F9F9F9 50%);
 }
 
-.header {
-    background-color: #E95258;
-    background: linear-gradient(to right, #E95258 50%, #F9F9F9 50%);
+@media (max-width:1000px) {
+    .header {
+        background: #E95258;
+    }
 }
 
 .header__nav {
@@ -88,11 +89,17 @@
     font-size: 14px;
     line-height: 18px;
     font-family: 'TTHoves-Medium', 'Times New Roman', Times, serif;
-
 }
 
 .header__nav-list {
     padding-right: 40px;
+    font-family: TTHoves-Regular;
+    font-size: 14px;
+}
+
+.btn-group__services {
+    font-family: TTHoves-Regular;
+    font-size: 14px;
 }
 
 .header__services {
@@ -128,6 +135,12 @@
     flex-direction: column;
 }
 
+.services__block_img {
+    position: relative;
+    width: 100%;
+    height: 220px;
+}
+
 .services__block-text {
     font-family: 'TT Hoves', 'Times New Roman', Times, serif;
     font-weight: 800;
@@ -135,6 +148,33 @@
     line-height: 19.92px;
     color: #F9F9F9;
     padding-top: 20px;
+}
+
+.services__block_text {
+    font-family: 'TT Hoves', 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17.43px;
+    color: #F9F9F9;
+}
+
+.services__block_card:active {
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+    left: 15px;
+    background: linear-gradient(to bottom, rgba(50, 73, 94, 0.6) 50%, #E95258 50%);
+    padding-top: 170px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.services__block_text:active {
+    visibility: visible;
+}
+
+.services__block_text {
+    visibility: hidden;
 }
 
 .main__about__cardio {
@@ -250,9 +290,19 @@ html {
     padding-bottom: 30px;
 }
 
+.price-list__services1 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.43px;
+    font-family: 'TT Hoves', 'Times New Roman', Times, serif;
+    color: #32495E;
+    padding-bottom: 30px;
+}
+
 .header__price-list {
     padding-top: 70px;
     padding-bottom: 20px;
+    padding-top: 70px;
 }
 
 .header__list-btn {
@@ -369,8 +419,12 @@ html {
 }
 
 .qa__container {
-    background-color: #49647D;
+    background-color: #32495E;
     ;
+}
+
+.qa__container_header {
+    background-color: #49647D;
 }
 
 .qa__header {
@@ -389,14 +443,16 @@ html {
     margin-top: 70px;
 }
 
-.recommend_items {
+.recommend__items {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     box-sizing: border-box;
     padding-top: 50px;
     padding-bottom: 35px;
 
 }
+
 
 .contacts {
     background-color: #F9F9F9;
@@ -404,6 +460,10 @@ html {
 
 .contacts__map {
     height: 360px;
+}
+
+.recommend__img {
+    object-fit: cover;
 }
 
 .footer {
@@ -449,10 +509,22 @@ html {
     transform: rotate(-90deg);
 }
 
+@media (max-width:1200px) {
+    .header {
+        background: #E95258;
+    }
+
+    .price-list__services1 {
+        display: none;
+    }
+
+}
+
 @media screen and (max-width:768px) {
     .footer__col_up {
         display: none;
     }
+
 }
 
 footer li:not(:first-of-type) {
@@ -469,16 +541,6 @@ footer li:first-of-type {
         grid-template-columns: 50% 50%;
     }
 
-    .сardio__photo {
-        position: absolute;
-        width: 55%;
-        height: 95%;
-        bottom: 0;
-        left: -70px;
-        background-repeat: no-repeat;
-        background-image: url(/assets/images/main-img1.png);
-    }
-
     .travm__photo {
         position: absolute;
         width: 31%;
@@ -490,9 +552,36 @@ footer li:first-of-type {
     }
 }
 
+.сardio__photo {
+    position: absolute;
+    width: 55%;
+    height: 95%;
+    bottom: 0;
+    left: -70px;
+    background-repeat: no-repeat;
+    background-image: url(/assets/images/main-img1.png);
+}
+
+.travm__photo {
+    position: absolute;
+    width: 31%;
+    height: 75%;
+    bottom: 0;
+    left: 1020px;
+    background-repeat: no-repeat;
+    background-image: url(/assets/images/main-img2.png);
+}
+
+
 @media screen and (max-width: 1023px) {
     .main__about {
         display: grid;
         grid-template-rows: 50% 50%;
+    }
+}
+
+@media (max-width:1000px) {
+    .header {
+        background: #E95258;
     }
 }
