@@ -453,15 +453,6 @@ html {
 
 }
 
-
-.contacts {
-    background-color: #F9F9F9;
-}
-
-.contacts__map {
-    height: 360px;
-}
-
 .recommend__img {
     object-fit: cover;
 }
