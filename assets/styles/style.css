@@ -22,24 +22,21 @@
         url('/assets/fonts/TTHoves-Medium.ttf');
 }
 
+
 .title__dark {
     font-family: TTHoves-ExtraBold;
-    font-size: 44px;
-    line-height: 52px;
+    font-size: calc(20px + 20* (100vw / 1280));
     color: #32495E;
 }
 
 .title__white {
     font-family: TTHoves-ExtraBold;
-    font-size: 44px;
-    line-height: 52px;
+    font-size: calc(20px + 20* (100vw / 1280));
     color: #ffffff;
 }
 
 
-
 .specialists__title {
-    font-size: 44px;
     padding-top: 70px;
     margin-bottom: 60px;
     text-transform: uppercase;
@@ -188,21 +185,31 @@
     position: relative;
 }
 
+.main__title__white {
+    font-family: TTHoves-ExtraBold;
+    font-size: calc(16px + 12*(100vw / 1280));
+}
+
+.main__title__dark {
+    font-family: TTHoves-ExtraBold;
+    font-size: calc(16px + 12*(100vw / 1280));
+}
+
+.main__about__par {
+    font-size: calc(12px + 2*(100vw / 1280));
+
+}
+
 .main__about__cardio {
     background-color: #E95258;
 }
 
-.main__about__cardio__title {
-    font-family: TTHoves-ExtraBold;
-    font-size: 28px;
-}
+
 
 
 .cardio__list {
     list-style-type: none;
     padding-right: 0;
-
-
 
 }
 
@@ -219,6 +226,7 @@ ul {
 .cardio__link {
     color: white;
     text-decoration: none;
+    padding: 0;
 }
 
 .cardio__link:hover {
@@ -227,6 +235,7 @@ ul {
 
 .travm__link {
     color: #32495E;
+    padding: 0;
 }
 
 .travm__link:hover {
@@ -264,7 +273,7 @@ ul {
         box-sizing: border-box;
         margin-top: 90px;
         margin-bottom: 50px;
-        margin-left: 2px;
+        margin-left: 10px;
         color: white;
         z-index: 1;
 
@@ -274,7 +283,7 @@ ul {
         display: flex;
         flex-direction: column;
         box-sizing: border-box;
-        margin-left: 2px;
+        margin-left: 10px;
         margin-top: 90px;
         margin-bottom: 50px;
         color: #32495E;
@@ -365,7 +374,7 @@ ul {
         position: absolute;
         width: 395px;
         height: 95%;
-        bottom: -133px;
+        bottom: -32px;
         left: -85px;
         object-fit: contain;
 
@@ -375,7 +384,7 @@ ul {
         position: absolute;
         width: 31%;
         height: 75%;
-        bottom: -60px;
+        bottom: -20px;
         right: -30px;
         object-fit: contain;
     }
@@ -675,7 +684,6 @@ html {
 .qa__header {
     font-family: 'TT Hoves', 'Times New Roman', Times, serif;
     font-weight: 800;
-    font-size: 44px;
     line-height: 52px;
     color: #F9F9F9;
     margin-top: 70px;
@@ -683,7 +691,6 @@ html {
 }
 
 .recommend__header {
-    font-size: 44px;
     box-sizing: border-box;
     margin-top: 70px;
 }
