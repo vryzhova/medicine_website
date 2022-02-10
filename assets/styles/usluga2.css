@@ -34,18 +34,76 @@
     color: #ffffff;
 }
 
-.main_usluga2 {
-    display: flex;
-    align-items: center;
-    background-image: url('/assets/images/usluga2_main_img.png');
-    background-size: co;
-    height: 43vh;
-
+/*header*/
+.header {
+    background: rgba(233, 82, 88, 0.7);
 }
 
-.main_usluga2__paragrh {
+.usluga2__header {
+    height: 43vh;
+    padding-top: 70px;
+}
+
+.header__usluga2__paragrh {
     font-family: TTHoves-DemiBold;
     font-size: 14px;
-    padding-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 90px;
     color: white;
+}
+
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: 'TTHoves-Medium';
+}
+
+.header__nav-list {
+    padding-right: 30px;
+    font-size: 14px;
+    color: white;
+}
+
+.header {
+    background-image: url(../images/usluga2_main_img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header__logo {
+    padding-top: 20px;
+    padding-left: 115px;
+}
+
+/*header end*/
+.main__usluga2_scroll-section {
+    background-color: #465B6E;
+}
+
+
+.main__usluga2_scroll-sections22,
+.main__usluga2_scroll-1 {
+    padding-top: 60px;
+    font-family: TTHoves-Medium;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 12px;
+    line-height: 24px;
+    color: #F9F9F9;
+    background-color: #465B6E;
+}
+
+.main__usluga2_scroll-points-title {
+    list-style-type: none;
+    color: white;
+}
+
+@media screen and (max-width: 720px) {
+    .main__usluga2_scroll-right {
+        display: none;
+    }
 }
