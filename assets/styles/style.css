@@ -22,24 +22,24 @@
         url('/assets/fonts/TTHoves-Medium.ttf');
 }
 
+
 .title__dark {
     font-family: TTHoves-ExtraBold;
-    font-size: 44px;
-    line-height: 52px;
+    font-size: calc(20px + 20* (100vw / 1280));
     color: #32495E;
 }
 
 .title__white {
     font-family: TTHoves-ExtraBold;
-    font-size: 44px;
-    line-height: 52px;
+    font-size: calc(20px + 20* (100vw / 1280));
     color: #ffffff;
 }
 
+
 .specialists__title {
-    font-size: 44px;
     padding-top: 70px;
     margin-bottom: 60px;
+    text-transform: uppercase;
 }
 
 
@@ -181,43 +181,296 @@
     background-color: #E95258;
 }
 
-.main__about__cardio__info {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    text-align: end;
-    box-sizing: border-box;
-    margin-top: 90px;
-    margin-bottom: 50px;
-    padding-right: 100px;
-    color: white;
+.main__about {
+    position: relative;
+}
+
+.main__title__white {
+    font-family: TTHoves-ExtraBold;
+    font-size: calc(16px + 12*(100vw / 1280));
+}
+
+.main__title__dark {
+    font-family: TTHoves-ExtraBold;
+    font-size: calc(16px + 12*(100vw / 1280));
+}
+
+.main__about__par {
+    font-size: calc(12px + 2*(100vw / 1280));
 
 }
+
+.main__about__cardio {
+    background-color: #E95258;
+}
+
+
+
+
+.cardio__list {
+    list-style-type: none;
+    padding-right: 0;
+
+}
+
 
 ul {
     padding: 20px;
 }
 
-.services_items {
-    text-align: end;
-}
 
 .main__about__travm {
     background-color: #F9F9F9;
 }
 
-.main__about__travm__info {
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    padding-left: 100px;
-    margin-top: 90px;
-    margin-bottom: 50px;
+.cardio__link {
+    color: white;
+    text-decoration: none;
+    padding: 0;
+}
+
+.cardio__link:hover {
     color: #32495E;
 }
 
-.specialists {
+.travm__link {
+    color: #32495E;
+    padding: 0;
+}
 
+.travm__link:hover {
+    color: black;
+}
+
+@media screen and (max-width:425px) {
+
+    .сardio__photo {
+        display: none;
+    }
+
+    .travm__photo {
+        display: none;
+    }
+
+    .main__about {
+        display: grid;
+        grid-template-rows: 50% 50%;
+    }
+
+    .main__about__cardio {
+        grid-row: 1/2;
+    }
+
+    .main__about__travm {
+        grid-row: 2/3;
+    }
+
+    .main__about__cardio__info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: start;
+        box-sizing: border-box;
+        margin-top: 90px;
+        margin-bottom: 50px;
+        margin-left: 10px;
+        color: white;
+        z-index: 1;
+
+    }
+
+    .main__about__travm__info {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        margin-left: 10px;
+        margin-top: 90px;
+        margin-bottom: 50px;
+        color: #32495E;
+    }
+
+    .cardio__list__items {
+        background-image: url(/assets/images/elipse.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        padding-left: 16px;
+    }
+
+    .cardio__list {
+        padding-left: 4px;
+    }
+}
+
+
+@media screen and (max-width:768px) and (min-width:426px) {
+
+
+    .сardio__photo {
+        display: none;
+    }
+
+    .travm__photo {
+        display: none;
+    }
+
+    .main__about {
+        display: grid;
+        grid-template-rows: 50% 50%;
+    }
+
+    .main__about__cardio {
+        grid-row: 1/2;
+    }
+
+    .main__about__travm {
+        grid-row: 2/3;
+    }
+
+    .main__about__cardio__info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: start;
+        box-sizing: border-box;
+        margin-top: 90px;
+        margin-bottom: 50px;
+        padding-left: 100px;
+        color: white;
+        z-index: 1;
+
+    }
+
+    .main__about__travm__info {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding-left: 100px;
+        margin-top: 90px;
+        margin-bottom: 50px;
+        color: #32495E;
+    }
+
+    .cardio__list__items {
+        background-image: url(/assets/images/elipse.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        padding-left: 16px;
+    }
+
+    .cardio__list {
+        padding-left: 4px;
+    }
+}
+
+
+@media screen and (min-width: 1025px) {
+    .main__about {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+
+    .сardio__photo {
+        position: absolute;
+        width: 395px;
+        height: 95%;
+        bottom: -32px;
+        left: -85px;
+        object-fit: contain;
+
+    }
+
+    .travm__photo {
+        position: absolute;
+        width: 31%;
+        height: 75%;
+        bottom: -20px;
+        right: -30px;
+        object-fit: contain;
+    }
+
+    .main__about__cardio__info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        text-align: end;
+        box-sizing: border-box;
+        margin-top: 90px;
+        margin-bottom: 50px;
+        padding-right: 100px;
+        color: white;
+        z-index: 1;
+
+    }
+
+    .main__about__travm__info {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding-left: 100px;
+        margin-top: 90px;
+        margin-bottom: 50px;
+        color: #32495E;
+    }
+
+    .cardio__list__items {
+        background-image: url(/assets/images/elipse.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        padding-right: 16px;
+
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+
+    .main__about {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 100%;
+    }
+
+    .main__about__cardio__info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        text-align: end;
+        box-sizing: border-box;
+        margin-top: 90px;
+        margin-bottom: 50px;
+        padding-right: 100px;
+        color: white;
+        z-index: 1;
+
+    }
+
+    .сardio__photo {
+        display: none;
+    }
+
+    .travm__photo {
+        display: none;
+    }
+
+    .main__about__travm__info {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding-left: 100px;
+        margin-top: 90px;
+        margin-bottom: 50px;
+        color: #32495E;
+    }
+
+    .cardio__list__items {
+        background-image: url(/assets/images/elipse.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        padding-right: 16px;
+    }
+}
+
+.specialists {
     background-color: #F9F9F9;
 }
 
@@ -234,7 +487,7 @@ ul {
 
 }
 
-.specialists__name {
+.title-h3 {
     font-family: TTHoves-ExtraBold;
     font-size: 16px;
     color: #32495E;
@@ -244,6 +497,8 @@ ul {
     margin-bottom: 55px;
     font-family: TTHoves-Medium;
     font-size: 14px;
+    font-weight: 400;
+    line-height: 17.43px;
     color: #32495E;
     text-align: justify;
 }
@@ -329,6 +584,7 @@ html {
 
 .media__title {
     margin-bottom: 35px;
+    text-transform: uppercase;
 }
 
 .media__links {
@@ -418,25 +674,67 @@ html {
 
 .qa__container {
     background-color: #32495E;
-    ;
-}
-
-.qa__container_header {
-    background-color: #49647D;
+    padding-bottom: 20px;
 }
 
 .qa__header {
-    font-family: 'TT Hoves', 'Times New Roman', Times, serif;
-    font-weight: 800;
-    font-size: 44px;
-    line-height: 52px;
-    color: #F9F9F9;
-    margin-top: 70px;
     background-color: #49647D;
+    margin-left: -10%;
+    margin-right: -15px;
+    margin-bottom: 38px;
+    padding-left: 20%;
+}
+
+.qa__container_trait {
+    padding-top: 60px;
+}
+
+.qa__container_question li {
+    list-style-type: none;
+    font-family: 'TT Hoves', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 2.5;
+    color: #F9F9F9;
+}
+
+.qa__container_ask {
+    font-family: 'TT Hoves', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    color: #F9F9F9;
+    padding-left: 90px;
+}
+
+.qa__container_question-text {
+    font-family: 'TT Hoves', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F9F9F9;
+    padding-top: 10px;
+}
+
+.img {
+    background: url("/assets/images/qa_left.png") no-repeat;
+    height: 16px;
+    width: 16px;
+}
+
+.qa__container_question-1 {
+    margin-top: 25.5px;
+}
+
+.img:hover {
+    background: url("/assets/images/qa-right.png") no-repeat;
+    height: 16px;
+    width: 16px;
 }
 
 .recommend__header {
-    font-size: 44px;
     box-sizing: border-box;
     margin-top: 70px;
 }
@@ -453,6 +751,39 @@ html {
 
 .recommend__img {
     object-fit: cover;
+}
+
+.contacts {
+    background-color: #F9F9F9;
+}
+
+.contacts__map {
+    padding-bottom: 50px;
+}
+
+.contacts__info {
+    display: grid;
+    grid-template-columns: 24% 24% 30% 32%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .contacts__info {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contacts__info {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 5px;
+    }
+}
+
+.contacts__item {
+    line-height: 24px;
 }
 
 .footer {
@@ -524,42 +855,6 @@ footer li:first-of-type {
     margin-bottom: -40px;
 }
 
-@media screen and (min-width: 1024px) {
-    .main__about {
-        display: grid;
-        grid-template-columns: 50% 50%;
-    }
-
-    .travm__photo {
-        position: absolute;
-        width: 31%;
-        height: 75%;
-        bottom: 0;
-        left: 1020px;
-        background-repeat: no-repeat;
-        background-image: url(/assets/images/main-img2.png);
-    }
-}
-
-.сardio__photo {
-    position: absolute;
-    width: 55%;
-    height: 95%;
-    bottom: 0;
-    left: -70px;
-    background-repeat: no-repeat;
-    background-image: url(/assets/images/main-img1.png);
-}
-
-.travm__photo {
-    position: absolute;
-    width: 31%;
-    height: 75%;
-    bottom: 0;
-    left: 1020px;
-    background-repeat: no-repeat;
-    background-image: url(/assets/images/main-img2.png);
-}
 
 
 @media screen and (max-width: 1023px) {

@@ -1,0 +1,81 @@
+@font-face {
+    font-family: TTHoves-Regular;
+    src: url('/assets/fonts/TTHoves-Regular.woff') format('woff'),
+        url('/assets/fonts/TTHoves-Regular.ttf');
+}
+
+@font-face {
+    font-family: TTHoves-DemiBold;
+    src: url('/assets/fonts/TTHoves-DemiBold.woff') format('woff'),
+        url('/assets/fonts/TTHoves-DemiBold.ttf');
+}
+
+@font-face {
+    font-family: TTHoves-ExtraBold;
+    src: url('/assets/fonts/TTHoves-ExtraBold.woff') format('woff'),
+        url('/assets/fonts/TTHoves-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: TTHoves-Medium;
+    src: url('/assets/fonts/TTHoves-Medium.woff') format('woff'),
+        url('/assets/fonts/TTHoves-Medium.ttf');
+}
+
+.title__dark {
+    font-family: TTHoves-ExtraBold;
+    font-size: calc(20px + 20* (100vw / 1280));
+    color: #32495E;
+}
+
+.title__white {
+    font-family: TTHoves-ExtraBold;
+    font-size: calc(20px + 20* (100vw / 1280));
+    color: #ffffff;
+}
+
+.main_usluga1 {
+    display: flex;
+    align-items: center;
+    background-image: url(/assets/images/usluga1_main_img.png);
+    height: 43vh;
+}
+
+.main_usluga1__paragrh {
+    font-family: TTHoves-Medium;
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+.main__usluga1_scroll-section {
+    background-color: #465B6E;
+}
+
+.main__usluga1_scroll-sections22,
+.main__usluga1_scroll-1 {
+    padding-top: 60px;
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 12px;
+    line-height: 24px;
+    color: #F9F9F9;
+    background-color: #465B6E;
+
+}
+
+.main__usluga1_scroll-2 {
+    padding-left: 15px;
+    padding-bottom: 60px;
+}
+
+.main__usluga1_scroll-points-title {
+    list-style-type: none;
+    color: white;
+}
+
+@media screen and (max-width: 720px) {
+    .main__usluga1_scroll-right {
+        display: none;
+    }
+}
