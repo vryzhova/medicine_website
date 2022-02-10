@@ -13,40 +13,36 @@
 </head>
 
 <body>
-    <header class="row header">
-        <div class="col-xl-6 col-md-12 col-sm-12 header__logo">
-            <img src="./assets/images/header-main-logo.svg" alt="Logo">
-        </div>
-        <div class="col-xl-6 col-md-12 col-sm-12 nav">
-            <div class="nav">
-                <ul class="header__nav">
-                    <li class="header__nav-list">Главная</li>
-                    <li class="header__nav-list">
-                        <div class="btn-group">
-                            <button type="button" class="btn dropdown-toggle btn-group__services" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">Наши услуги</button>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Травма-реабилитационный центр</a>
-                                <a class="dropdown-item" href="#">Кардио-реабилитационный центр</a>
-                                <a class="dropdown-item" href="#">Травма-реабилитационный центр</a>
-                                <a class="dropdown-item" href="#">Кардио-реабилитационный центр</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="header__nav-list">Отчеты</li>
-                    <li class="header__nav-list">О нас</li>
-                    <li class="header__nav-list">Новости</li>
-                    <li class="header__nav-list">РУС</li>
-                </ul>
-            </div>
-        </div>
-    </header>
     <main class="main">
         <section class="main__about">
             <div class="main__about__cardio">
-
+                <img class="main__about__cardio-logo" src="/assets/images/header-main-logo.svg" alt="Logo">
+                <div class="nav main__nav main__about__cardio-menu">
+                    <ul class="header__nav">
+                        <li class="header__nav-list header__nav-list-white">Главная</li>
+                        <li class="header__nav-list">
+                            <div class="btn-group">
+                                <button type="button"
+                                    class="btn dropdown-toggle btn-group__services header__nav-list-white"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Наши
+                                    услуги</button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Травма-реабилитационный центр</a>
+                                    <a class="dropdown-item" href="#">Кардио-реабилитационный центр</a>
+                                    <a class="dropdown-item" href="#">Травма-реабилитационный центр</a>
+                                    <a class="dropdown-item" href="#">Кардио-реабилитационный центр</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__nav-list header__nav-list-white">Отчеты</li>
+                        <li class="header__nav-list header__nav-list-white">О нас</li>
+                        <li class="header__nav-list">Новости</li>
+                        <li class="header__nav-list">РУС</li>
+                    </ul>
+                </div>
                 <div class="main__about__cardio__info">
-                    <h1 class="main__title__white"><a href ="usluga2/usluga2.html" class="cardio__link nav-link">КАРДИО-РЕАБИЛИТАЦИОННЫЙ<br>
+                    <h1 class="main__title__white"><a href="usluga2/usluga2.html"
+                            class="cardio__link nav-link">КАРДИО-РЕАБИЛИТАЦИОННЫЙ<br>
                             ЦЕНТР</a> </h1>
                     <p class="main__about__par">Кардиореабилитация представляет собой <br>
                         совокупность восстанавливающих процедур и <br>
@@ -73,9 +69,32 @@
                 <img src="/assets/images/main-img1.png" alt="photo">
             </div>
             <div class="main__about__travm">
+                <div class="nav main__nav_travm">
+                    <ul class="header__nav">
+                        <li class="header__nav-list">Главная</li>
+                        <li class="header__nav-list">
+                            <div class="btn-group">
+                                <button type="button" class="btn dropdown-toggle btn-group__services"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Наши
+                                    услуги</button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Травма-реабилитационный центр</a>
+                                    <a class="dropdown-item" href="#">Кардио-реабилитационный центр</a>
+                                    <a class="dropdown-item" href="#">Травма-реабилитационный центр</a>
+                                    <a class="dropdown-item" href="#">Кардио-реабилитационный центр</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__nav-list">Отчеты</li>
+                        <li class="header__nav-list">О нас</li>
+                        <li class="header__nav-list">Новости</li>
+                        <li class="header__nav-list">РУС</li>
+                    </ul>
+                </div>
                 <div class="main__about__travm__info">
                     <h1 class="main__title__dark"><a href="/usluga1/usluga1.html"
-                            class="travm__link nav-link">ТРАВМА-РЕАБИЛИТАЦИОННЫЙ<br> ЦЕНТР</a></h1>
+                            class="travm__link nav-link main__about__travm__info-title">ТРАВМА-РЕАБИЛИТАЦИОННЫЙ<br>
+                            ЦЕНТР</a></h1>
                     <p class="main__about__par">Реабилитация пациентов <br>
                         травматолого-ортопедического <br>
                         профиля включает мероприятия, <br>
@@ -102,7 +121,7 @@
         <div class="container">
             <h2 class="header__services title__white">НАШИ УСЛУГИ</h2>
             <div class="row">
-                <div class="col-xl-3 col-md-6 col-sm-12 services__block">
+                <div class="col-xl-3 col-md-6 col-sm-6 services__block">
                     <img src="./assets/images/services-img1.jpg" class="services__block_img" alt="Foto">
                     <div class="services__block_card">
                         <h5 class="services__block-text">Кардио-реаблитационный центр</h5>
@@ -111,17 +130,17 @@
                     </div>
                 </div>
 
-                <div class="col-xl-3 col-md-6 col-sm-12 services__block">
+                <div class="col-xl-3 col-md-6 col-sm-6 services__block">
                     <img src="./assets/images/services-img2.jpg" alt="Foto">
                     <p class="services__block-text">Травма-реабилитационный центр</p>
                 </div>
 
-                <div class="col-xl-3 col-md-6 col-sm-12 services__block">
+                <div class="col-xl-3 col-md-6 col-sm-6 services__block">
                     <img src="./assets/images/services-img3.jpg" alt="Foto">
                     <p class="services__block-text">Кафе еда и еще слова что бы было две строки</p>
                 </div>
 
-                <div class="col-xl-3 col-md-6 col-sm-12 services__block">
+                <div class="col-xl-3 col-md-6 col-sm-6 services__block">
                     <img src="./assets/images/services-img4.jpg" alt="Foto">
                     <p class="services__block-text">Сауна высшего класса для восстановления</p>
                 </div>
@@ -295,7 +314,7 @@
         <div class="container">
             <h2 class="header__news title__dark ">НАШИ НОВОСТИ</h2>
             <div class="row news__cards">
-                <div class="col-xl-3 col-md-6 col-sm-12 header__news_card">
+                <div class="col-xl-3 col-md-6 col-sm-6 header__news_card">
                     <img src="/assets/images/News-img1.png" class="news__cards_img" alt="boat">
                     <div class="news__cards_card">
                         <h5 class="card-title news__cards_title">Название новости - Заголовок в две строки</h5>
@@ -305,7 +324,7 @@
                         <a href="#" class="news__cards_card-link">Читать полностью</a>
                     </div>
                 </div>
-                <div class="col-xl-3 col-md-6 col-sm-12 header__news_card">
+                <div class="col-xl-3 col-md-6 col-sm-6 header__news_card">
                     <img src="/assets/images/news-img2.jpg" class="news__cards_img" alt="boat">
                     <div class="news__cards_card">
                         <h5 class="card-title news__cards_title">Название новости - Заголовок в две строки</h5>
@@ -315,7 +334,7 @@
                         <a href="#" class="news__cards_card-link">Читать полностью</a>
                     </div>
                 </div>
-                <div class="col-xl-3 col-md-6 col-sm-12 header__news_card">
+                <div class="col-xl-3 col-md-6 col-sm-6 header__news_card">
                     <img src="/assets/images/news-img3.jpg" class="news__cards_img" alt="boat">
                     <div class="news__cards_card">
                         <h5 class="card-title news__cards_title">Название новости - Заголовок в две строки</h5>
@@ -325,7 +344,7 @@
                         <a href="#" class="news__cards_card-link mx-auto">Читать полностью</a>
                     </div>
                 </div>
-                <div class="col-xl-3 col-md-6 col-sm-12 header__news_card">
+                <div class="col-xl-3 col-md-6 col-sm-6 header__news_card">
                     <img src="/assets/images/news-img4.jpg" class="news__cards_img" alt="boat">
                     <div class="news__cards_card">
                         <h5 class="card-title news__cards_title">Название новости - Заголовок в две строки</h5>

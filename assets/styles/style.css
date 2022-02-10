@@ -67,22 +67,6 @@
 
 /*header*/
 
-.header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 115px;
-    padding-right: 75px;
-    background: linear-gradient(to right, #E95258 50%, #F9F9F9 50%);
-}
-
-@media (max-width:1000px) {
-    .header {
-        background: #E95258;
-    }
-}
-
 .header__nav {
     display: flex;
     align-items: center;
@@ -94,7 +78,7 @@
 
 .header__nav-list {
     padding-right: 40px;
-    font-family: TTHoves-Regular;
+    font-family: 'TTHoves-Regular', 'Times New Roman', Times, serif;
     font-size: 14px;
 }
 
@@ -128,6 +112,7 @@
     line-height: 17px;
     padding-top: 15px;
     font-family: 'TT Hoves', 'Times New Roman', Times, serif;
+    margin-top: 30px;
 }
 
 .header__services-btn {
@@ -185,10 +170,18 @@
 .main__about__cardio {
     position: relative;
     background-color: #E95258;
+    height: 100%;
 }
 
 .main__about {
     position: relative;
+    width: 100%;
+}
+
+.main__about__cardio-logo {
+    padding-top: 20px;
+    padding-left: 115px;
+    padding-bottom: 30px;
 }
 
 .main__title__white {
@@ -208,10 +201,20 @@
 
 .main__about__cardio {
     background-color: #E95258;
+    height: 100%;
 }
 
+@media screen and (min-width:770px) {
+    .main__nav {
+        display: none;
+    }
+}
 
-
+@media screen and (max-width:769px) {
+    .main__nav_travm {
+        display: none;
+    }
+}
 
 .cardio__list {
     list-style-type: none;
@@ -224,6 +227,9 @@ ul {
     padding: 20px;
 }
 
+.main__about {
+    height: 100%;
+}
 
 .main__about__travm {
     background-color: #F9F9F9;
@@ -260,15 +266,7 @@ ul {
 
     .main__about {
         display: grid;
-        grid-template-rows: 50% 50%;
-    }
-
-    .main__about__cardio {
-        grid-row: 1/2;
-    }
-
-    .main__about__travm {
-        grid-row: 2/3;
+        grid-template-columns: 100% 100%;
     }
 
     .main__about__cardio__info {
@@ -319,9 +317,18 @@ ul {
         display: none;
     }
 
+    .main__about__cardio {
+        height: 800px;
+    }
+
+    .main__about__travm__info-title {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
     .main__about {
         display: grid;
-        grid-template-rows: 50% 50%;
+        grid-template-columns: 100% 100%;
     }
 
     .main__about__cardio {
@@ -368,22 +375,22 @@ ul {
     }
 }
 
-
 @media screen and (min-width: 1025px) {
     .main__about {
         display: grid;
         grid-template-columns: 50% 50%;
     }
 
+    .main__about__cardio {
+        position: relative;
+        width: 100%;
+    }
 
     .сardio__photo {
         position: absolute;
         width: 395px;
-        height: 95%;
-        bottom: -32px;
-        left: -85px;
-        object-fit: contain;
-
+        left: -100px;
+        bottom: 0;
     }
 
     .travm__photo {
@@ -433,7 +440,27 @@ ul {
     .main__about {
         display: grid;
         grid-template-columns: 50% 50%;
-        grid-template-rows: 100%;
+    }
+
+    .main__about__cardio {
+        height: 800px;
+    }
+
+    .main__about__cardio-menu {
+        display: block;
+        width: 900px;
+    }
+
+    .main__nav_travm {
+        display: none;
+    }
+
+    .main__about__travm__info-title {
+        padding-top: 150px;
+    }
+
+    .header__nav-list-white {
+        color: #F9F9F9;
     }
 
     .main__about__cardio__info {
@@ -447,7 +474,6 @@ ul {
         padding-right: 100px;
         color: white;
         z-index: 1;
-
     }
 
     .сardio__photo {
@@ -475,6 +501,8 @@ ul {
         padding-right: 16px;
     }
 }
+
+
 
 .specialists {
     background-color: #F9F9F9;
