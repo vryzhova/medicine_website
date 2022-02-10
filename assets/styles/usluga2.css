@@ -49,3 +49,30 @@
     padding-top: 20px;
     color: white;
 }
+
+.main__usluga2_scroll-section {
+    background-color: #465B6E;
+}
+
+.main__usluga2_scroll-sections22,
+.main__usluga2_scroll-1 {
+    padding-top: 60px;
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 12px;
+    line-height: 24px;
+    color: #F9F9F9;
+    background-color: #465B6E;
+}
+
+.main__usluga2_scroll-points-title {
+    list-style-type: none;
+    color: white;
+}
+
+@media screen and (max-width: 720px) {
+    .main__usluga2_scroll-right {
+        display: none;
+    }
+}
