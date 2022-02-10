@@ -744,6 +744,7 @@ html {
     width: 16px;
 }
 
+/* reccommend */
 .recommend__header {
     box-sizing: border-box;
     margin-top: 70px;
@@ -763,6 +764,7 @@ html {
     object-fit: cover;
 }
 
+/* recommend end */
 .contacts {
     background-color: #F9F9F9;
 }

@@ -1,0 +1,219 @@
+@font-face {
+    font-family: TTHoves-Regular;
+    src: url('../fonts/TTHoves-Regular.woff') format('woff'),
+        url('../fonts/TTHoves-Regular.ttf');
+}
+
+@font-face {
+    font-family: TTHoves-DemiBold;
+    src: url('../fonts/TTHoves-DemiBold.woff') format('woff'),
+        url('../fonts/TTHoves-DemiBold.ttf');
+}
+
+@font-face {
+    font-family: TTHoves-ExtraBold;
+    src: url('../fonts/TTHoves-ExtraBold.woff') format('woff'),
+        url('../fonts/TTHoves-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: TTHoves-Medium;
+    src: url('../fonts/TTHoves-Medium.woff') format('woff'),
+        url('../fonts/TTHoves-Medium.ttf');
+}
+
+.title__dark {
+    font-family: TTHoves-ExtraBold;
+    font-size: calc(20px + 20* (100vw / 1280));
+    color: #32495E;
+}
+
+.title__white {
+    font-family: TTHoves-ExtraBold;
+    font-size: calc(20px + 20* (100vw / 1280));
+    color: #ffffff;
+}
+
+
+.title2 {
+    font-family: 'TTHoves-ExtraBold';
+    font-size: 44px;
+    line-height: 52px;
+    color: #F9F9F9;
+
+}
+
+
+/*header*/
+.header {
+    background: #32495E;
+}
+
+.specialists-header {
+    font-family: 'TTHoves-ExtraBold';
+    font-size: calc(20px + 30* (100vw / 1280));
+    color: #F3F5FA;
+    line-height: 68px;
+    padding-top: 100px;
+    padding-bottom: 25px;
+    padding-left: 70px;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: 'TTHoves-Medium';
+}
+
+.header__nav-list {
+    padding-right: 30px;
+    font-size: 14px;
+    color: #F9F9F9;
+}
+
+.header {
+    background-image: url(../images/specialists__main__img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header__logo {
+    padding-top: 20px;
+}
+
+/*header end*/
+
+.specialists {
+    background-color: #F9F9F9;
+    padding-top: 20px;
+}
+
+.specialists__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    column-gap: 75px;
+    justify-items: baseline;
+}
+
+.specialists__photo {
+    margin-bottom: 30px;
+    border-radius: 50%;
+
+}
+
+.title-h3 {
+    font-family: TTHoves-ExtraBold;
+    font-size: 16px;
+    color: #32495E;
+}
+
+.specialists__name-info {
+    margin-bottom: 55px;
+    font-family: TTHoves-Medium;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.43px;
+    color: #32495E;
+    text-align: justify;
+}
+
+
+/* reccommend */
+.recommend__header {
+    box-sizing: border-box;
+    margin-top: 70px;
+}
+
+.recommend__items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding-top: 50px;
+    padding-bottom: 35px;
+
+}
+
+.recommend__img {
+    object-fit: cover;
+}
+
+/* recommend end */
+.contacts {
+    background-color: #F9F9F9;
+}
+
+.contacts__map {
+    padding-bottom: 50px;
+}
+
+.contacts__info {
+    display: grid;
+    grid-template-columns: 24% 24% 30% 32%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .contacts__info {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contacts__info {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 5px;
+    }
+}
+
+.contacts__item {
+    line-height: 24px;
+}
+
+/*footer*/
+.footer {
+    background-color: #333333;
+}
+
+.footer__all {
+    padding-top: 70px;
+}
+
+.footer__col_title {
+    font-family: 'TTHoves-ExtraBold', 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: #F9F9F9;
+    padding-left: 15px;
+}
+
+.footer__col_link {
+    font-family: 'TTHoves-Regular', 'Times New Roman', Times, serif;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F9F9F9;
+}
+
+.footer__col_rights {
+    font-family: 'TTHoves-Regular', 'Times New Roman', Times, serif;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F9F9F9;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.footer__col_up {
+    font-family: 'TTHoves-Regular', 'Times New Roman', Times, serif;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F9F9F9;
+    transform: rotate(-90deg);
+}
+
+/*footer end*/
