@@ -34,22 +34,6 @@
     color: #ffffff;
 }
 
-.main_usluga2 {
-    display: flex;
-    align-items: center;
-    background-image: url('/assets/images/usluga2_main_img.png');
-    background-size: co;
-    height: 43vh;
-
-}
-
-.main_usluga2__paragrh {
-    font-family: TTHoves-DemiBold;
-    font-size: 14px;
-    padding-top: 20px;
-    color: white;
-}
-
 .main__usluga2_scroll-section {
     background-color: #465B6E;
 }
