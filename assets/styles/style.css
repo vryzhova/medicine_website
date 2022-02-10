@@ -264,6 +264,10 @@ ul {
         display: none;
     }
 
+    .header__nav-list-white-all {
+        color: #F9F9F9;
+    }
+
     .main__about {
         display: grid;
         grid-template-columns: 100% 100%;
