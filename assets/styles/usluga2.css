@@ -1,0 +1,51 @@
+@font-face {
+    font-family: TTHoves-Regular;
+    src: url('/assets/fonts/TTHoves-Regular.woff') format('woff'),
+        url('/assets/fonts/TTHoves-Regular.ttf');
+}
+
+@font-face {
+    font-family: TTHoves-DemiBold;
+    src: url('/assets/fonts/TTHoves-DemiBold.woff') format('woff'),
+        url('/assets/fonts/TTHoves-DemiBold.ttf');
+}
+
+@font-face {
+    font-family: TTHoves-ExtraBold;
+    src: url('/assets/fonts/TTHoves-ExtraBold.woff') format('woff'),
+        url('/assets/fonts/TTHoves-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: TTHoves-Medium;
+    src: url('/assets/fonts/TTHoves-Medium.woff') format('woff'),
+        url('/assets/fonts/TTHoves-Medium.ttf');
+}
+
+.title__dark {
+    font-family: TTHoves-ExtraBold;
+    font-size: calc(20px + 20* (100vw / 1280));
+    color: #32495E;
+}
+
+.title__white {
+    font-family: TTHoves-ExtraBold;
+    font-size: calc(20px + 20* (100vw / 1280));
+    color: #ffffff;
+}
+
+.main_usluga2 {
+    display: flex;
+    align-items: center;
+    background-image: url('/assets/images/usluga2_main_img.png');
+    background-size: co;
+    height: 43vh;
+
+}
+
+.main_usluga2__paragrh {
+    font-family: TTHoves-DemiBold;
+    font-size: 14px;
+    padding-top: 20px;
+    color: white;
+}
