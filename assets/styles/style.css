@@ -65,6 +65,8 @@
     color: #ffffff;
 }
 
+/*header*/
+
 .header {
     display: flex;
     flex-direction: row;
@@ -87,7 +89,7 @@
     list-style-type: none;
     font-size: 14px;
     line-height: 18px;
-    font-family: 'TTHoves-Medium', 'Times New Roman', Times, serif;
+    font-family: 'TTHoves-Regular', 'Times New Roman', Times, serif;
 }
 
 .header__nav-list {
@@ -100,6 +102,11 @@
     font-family: TTHoves-Regular;
     font-size: 14px;
 }
+
+
+/*header end*/
+
+/*services*/
 
 .header__services {
     padding-top: 70px;
@@ -155,6 +162,7 @@
     font-size: 14px;
     line-height: 17.43px;
     color: #F9F9F9;
+    visibility: hidden;
 }
 
 .services__block_card:active {
@@ -172,9 +180,7 @@
     visibility: visible;
 }
 
-.services__block_text {
-    visibility: hidden;
-}
+/*services end*/
 
 .main__about__cardio {
     position: relative;
@@ -513,6 +519,8 @@ html {
     font-size: 1rem;
 }
 
+/*price-list*/
+
 .price-list__header {
     font-size: 14px;
 }
@@ -559,6 +567,15 @@ html {
     padding-top: 70px;
 }
 
+.price-list__button {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+/*price-list end*/
+
 .header__list-btn {
     font-size: 14px;
 }
@@ -569,13 +586,6 @@ html {
 
 .header__news_card {
     margin-top: 30px;
-}
-
-.price-list__button {
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
-    padding-bottom: 40px;
 }
 
 .media {
@@ -861,11 +871,5 @@ footer li:first-of-type {
     .main__about {
         display: grid;
         grid-template-rows: 50% 50%;
-    }
-}
-
-@media (max-width:1000px) {
-    .header {
-        background: #E95258;
     }
 }
