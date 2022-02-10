@@ -34,6 +34,51 @@
     color: #ffffff;
 }
 
+/*header*/
+.header {
+    background: #F2F2F2;
+}
+
+.usluga1__header {
+    height: 40vh;
+    padding-top: 90px;
+}
+
+.header__usluga1__paragrh {
+    font-family: TTHoves-DemiBold;
+    font-size: 14px;
+    color: #32495E;
+}
+
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: 'TTHoves-Medium';
+}
+
+.header__nav-list {
+    padding-right: 30px;
+    font-size: 14px;
+    color: #32495E;
+}
+
+.header {
+    background-image: url(../images/usluga1_main_img.png);
+    background-repeat: no-repeat;
+    background-position: contain;
+}
+
+.header__logo {
+    padding-top: 20px;
+    padding-left: 115px;
+}
+
+/*header end*/
+
 .main__usluga1_scroll-section {
     background-color: #465B6E;
 }
