@@ -87,6 +87,13 @@
     font-size: 14px;
 }
 
+@media (max-width:1024px) {
+    .header__nav-list {
+        padding-right: 20px;
+        color: white;
+    }
+}
+
 
 /*header end*/
 
@@ -564,6 +571,12 @@ html {
     font-family: 'TT Hoves', 'Times New Roman', Times, serif;
     color: #8093AC;
     padding-bottom: 20px;
+}
+
+@media (max-width:600px) {
+    .price-list__service {
+        font-size: 14px;
+    }
 }
 
 .price-list__price {
