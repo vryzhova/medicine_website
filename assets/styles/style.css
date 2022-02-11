@@ -87,12 +87,28 @@
     font-size: 14px;
 }
 
+@media (max-width:900px) {
+    .header__nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header__navigation {
+        padding-left: 110px;
+    }
+
+    .header__navigation_1 {
+        padding-left: 98px;
+    }
+}
+
 @media (max-width:1024px) {
     .header__nav-list {
         padding-right: 20px;
         color: white;
     }
 }
+
 
 
 /*header end*/
@@ -168,9 +184,12 @@
     padding-right: 20px;
 }
 
+
 .services__block_text:active {
     visibility: visible;
 }
+
+
 
 /*services end*/
 
