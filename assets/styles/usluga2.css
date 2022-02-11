@@ -107,3 +107,326 @@
         display: none;
     }
 }
+
+
+/*price-list*/
+
+.price-list__header {
+    font-size: 14px;
+}
+
+.price-list__service {
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 19.92px;
+    font-family: 'TT Hoves', 'Times New Roman', Times, serif;
+    color: #8093AC;
+    padding-bottom: 20px;
+}
+
+@media (max-width:600px) {
+    .price-list__service {
+        font-size: 14px;
+    }
+}
+
+.price-list__price {
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 19.92px;
+    font-family: 'TT Hoves', 'Times New Roman', Times, serif;
+    color: #32495E;
+    padding-bottom: 20px;
+}
+
+.price-list__services {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.43px;
+    font-family: 'TT Hoves', 'Times New Roman', Times, serif;
+    color: #32495E;
+    padding-bottom: 30px;
+}
+
+.price-list__services1 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.43px;
+    font-family: 'TT Hoves', 'Times New Roman', Times, serif;
+    color: #32495E;
+    padding-bottom: 30px;
+}
+
+.header__price-list {
+    padding-top: 70px;
+    padding-bottom: 20px;
+    padding-top: 70px;
+}
+
+/*price-list end*/
+
+/*services*/
+
+.header__services {
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+.services {
+    background-color: #32495E;
+}
+
+.services__button {
+    color: #F9F9F9;
+    border: 1px solid #F9F9F9;
+    width: 160px;
+    height: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    line-height: 17px;
+    padding-top: 15px;
+    font-family: 'TT Hoves', 'Times New Roman', Times, serif;
+    margin-top: 30px;
+}
+
+.header__services-btn {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+
+.services__block {
+    display: flex;
+    flex-direction: column;
+}
+
+.services__block_img {
+    position: relative;
+    width: 100%;
+    height: 220px;
+}
+
+.services__block-text {
+    font-family: 'TT Hoves', 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19.92px;
+    color: #F9F9F9;
+    padding-top: 20px;
+}
+
+.services__block_text {
+    font-family: 'TT Hoves', 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17.43px;
+    color: #F9F9F9;
+    visibility: hidden;
+}
+
+.services__block_card:active {
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+    left: 15px;
+    background: linear-gradient(to bottom, rgba(50, 73, 94, 0.6) 50%, #E95258 50%);
+    padding-top: 170px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.services__block_text:active {
+    visibility: visible;
+}
+
+/*services end*/
+
+/* qa */
+.qa__container {
+    background-color: #32495E;
+    padding-bottom: 20px;
+}
+
+.qa__header {
+    background-color: #49647D;
+    margin-left: -10%;
+    margin-right: -15px;
+    margin-bottom: 38px;
+    padding-left: 20%;
+}
+
+.qa__container_trait {
+    padding-top: 60px;
+}
+
+.qa__container_question li {
+    list-style-type: none;
+    font-family: 'TT Hoves', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 2.5;
+    color: #F9F9F9;
+}
+
+.qa__container_ask {
+    font-family: 'TT Hoves', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    color: #F9F9F9;
+    padding-left: 90px;
+}
+
+.qa__container_question-text {
+    font-family: 'TT Hoves', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F9F9F9;
+    padding-top: 10px;
+}
+
+.img {
+    background: url("/assets/images/qa_left.png") no-repeat;
+    height: 16px;
+    width: 16px;
+}
+
+.qa__container_question-1 {
+    margin-top: 25.5px;
+}
+
+.img:hover {
+    background: url("/assets/images/qa-right.png") no-repeat;
+    height: 16px;
+    width: 16px;
+}
+
+/* qa end */
+/* reccommend */
+.recommend__header {
+    box-sizing: border-box;
+    margin-top: 70px;
+}
+
+.recommend__items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding-top: 50px;
+    padding-bottom: 35px;
+
+}
+
+.recommend__img {
+    object-fit: cover;
+}
+
+/* recommend end */
+
+/* contacts */
+.contacts {
+    background-color: #F9F9F9;
+}
+
+.contacts__map {
+    padding-bottom: 50px;
+}
+
+.contacts__info {
+    display: grid;
+    grid-template-columns: 24% 24% 30% 32%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .contacts__info {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contacts__info {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 5px;
+    }
+}
+
+.contacts__item {
+    line-height: 24px;
+}
+
+.specialists__title {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.title-h3 {
+    font-family: TTHoves-ExtraBold;
+    font-size: 16px;
+    color: #32495E;
+}
+
+.specialists__name-info {
+    margin-bottom: 55px;
+    font-family: TTHoves-Medium;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.43px;
+    color: #32495E;
+    text-align: justify;
+}
+
+
+/* contacts end */
+
+/*footer*/
+.footer {
+    background-color: #333333;
+}
+
+.footer__all {
+    padding-top: 70px;
+}
+
+.footer__col_title {
+    font-family: 'TTHoves-ExtraBold', 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: #F9F9F9;
+    padding-left: 15px;
+}
+
+.footer__col_link {
+    font-family: 'TTHoves-Regular', 'Times New Roman', Times, serif;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F9F9F9;
+}
+
+.footer__col_rights {
+    font-family: 'TTHoves-Regular', 'Times New Roman', Times, serif;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F9F9F9;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.footer__col_up {
+    font-family: 'TTHoves-Regular', 'Times New Roman', Times, serif;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F9F9F9;
+    transform: rotate(-90deg);
+}
+
+/*footer end*/
