@@ -52,6 +52,9 @@
     padding-left: 70px;
 }
 
+.header__nav-name {
+    color: #F9F9F9;
+}
 
 .header__nav {
     display: flex;
@@ -78,7 +81,6 @@
 .header__nav-list {
     padding-right: 30px;
     font-size: 14px;
-    color: #F9F9F9;
 }
 
 .header {
@@ -253,6 +255,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     padding-bottom: 46px;
+    padding-left: 0px;
 }
 
 .recommendations__img {

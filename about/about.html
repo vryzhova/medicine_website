@@ -20,12 +20,24 @@
         <div class="col-xl-6 col-md-12 col-sm-12 nav">
             <div class="nav">
                 <ul class="header__nav">
-                    <li class="header__nav-list">Главная</li>
-                    <li class="header__nav-list">Наши услуги</li>
-                    <li class="header__nav-list">Отчеты</li>
-                    <li class="header__nav-list">О нас</li>
-                    <li class="header__nav-list">Новости</li>
-                    <li class="header__nav-list">РУС</li>
+                    <li class="header__nav-list header__nav-name">
+                        <a class="header__nav-name" href="../index.html">Главная</a>
+                    </li>
+                    <li class="header__nav-list">
+                        <a class="header__nav-name" href="../usluga1/usluga1.html">Услуги</a>
+                    </li>
+                    <li class="header__nav-list">
+                        <a class="header__nav-name" href="#about_us">О нас</a>
+                    </li>
+                    <li class="header__nav-list">
+                        <a class="header__nav-name" href="../specialists/specialists.html">Специалисты</a>
+                    </li>
+                    <li class="header__nav-list">
+                        <a class="header__nav-name" href="#contacts">Контакты</a>
+                    </li>
+                    <li class="header__nav-name">
+                        <a class="header__nav-name" href="">РУС</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -36,7 +48,7 @@
     </div>
     </header>
     <main>
-        <section class="recommened">
+        <section class="recommened" id="about_us">
             <div>
                 <div class="recommened__grid">
                     <div class="recommened__item1"><img src="../assets/images/about_us_shortly.svg" alt="" class="recommened__foto"></div>
@@ -106,7 +118,7 @@
     </section>
     <section class="contacts">
         <div class="container contacts__container">
-            <h2 class="contacts__title">КОНТАКТЫ</h2>
+            <h2 class="contacts__title" id="contacts">КОНТАКТЫ</h2>
             <div class="contacts__map">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2575.494472726305!2d73.06178641570779!3d49.79557087939033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x424341eee03bccd5%3A0x301f84bde696cf6!2z0YPQu9C40YbQsCDQmtGA0LjQstC-0LPRg9C30LAgNzksINCa0LDRgNCw0LPQsNC90LTQsCAxMDAwMDAsINCa0LDQt9Cw0YXRgdGC0LDQvQ!5e0!3m2!1sru!2sru!4v1644174590580!5m2!1sru!2sru"
@@ -144,19 +156,19 @@
                         <h5 class="footer__col_title">Карта сайта</h5>
                         <ul class="nav flex-column">
                             <li class="nav-item">
-                                <a class="nav-link footer__col_link active" aria-current="page" href="#">Главная</a>
+                                <a class="nav-link footer__col_link active" aria-current="page" href="../index.html">Главная</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link footer__col_link" href="#">Наши услуги</a>
+                                <a class="nav-link footer__col_link" href="../usluga2/usluga2.html">Наши услуги</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link footer__col_link" href="#">Отчеты</a>
+                                <a class="nav-link footer__col_link" href="#about_us">О нас</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link footer__col_link" href="#">О нас</a>
+                                <a class="nav-link footer__col_link" href="../specialists/specialists.html">Специалисты</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link footer__col_link" href="#">Контакты</a>
+                                <a class="nav-link footer__col_link" href="#contacts">Контакты</a>
                             </li>
                         </ul>
                     </div>
@@ -188,7 +200,7 @@
                     <div class="col footer__col"></div>
                     <div class="col footer__col_and">
                         <a class="nav-link footer__col_link" href="#">
-                            <img class="footer__col_arrows" src="/assets/images/footer-arrows.png" alt="arrows">
+                            <img class="footer__col_arrows" src="../assets/images/footer-arrows.png" alt="arrows">
                         </a>
                         <p class="footer__col_up">Наверх</p>
                     </div>
