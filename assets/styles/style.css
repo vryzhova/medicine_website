@@ -53,7 +53,7 @@
     font-size: 15px;
     line-height: 17px;
     padding-top: 15px;
-    font-family: 'TT Hoves', 'Times New Roman', Times, serif;
+    font-family: 'TTHoves-Regular', 'Times New Roman', Times, serif;
 }
 
 .row {
@@ -533,7 +533,7 @@ ul {
     }
 }
 
-
+/*********************************** specialists ***********************************/
 
 .specialists {
     background-color: #F9F9F9;
@@ -553,14 +553,13 @@ ul {
 }
 
 .title-h3 {
-    font-family: TTHoves-ExtraBold;
+    font-family: 'TTHoves-ExtraBold', 'Times New Roman', Times, serif;
     font-size: 16px;
     color: #32495E;
 }
 
 .specialists__name-info {
     margin-bottom: 55px;
-    font-family: TTHoves-Medium;
     font-size: 14px;
     font-weight: 400;
     line-height: 17.43px;
@@ -574,8 +573,11 @@ ul {
 
 }
 
+/*********************************** specialists end ***********************************/
+
 html {
     font-size: 1rem;
+    font-family: 'TTHoves-Regular', 'Times New Roman', Times, serif;
 }
 
 /*price-list*/
@@ -653,6 +655,7 @@ html {
     margin-top: 30px;
 }
 
+/*********************************** media ***********************************/
 .media {
     background-color: #32495E;
 }
@@ -669,20 +672,81 @@ html {
 .media__link {
     color: #f9f9f9;
     margin-right: 35px;
+    cursor: pointer;
+    padding: 5px 0;
+}
 
+.media__link_active {
+    border-bottom: 1px solid #E95258;
 }
 
 .media__list {
     display: grid;
     grid-gap: 0px;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-
 }
 
-.media__list>.media__item>img {
+.media__item {
+    position: relative;
+}
+
+.media__img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.media__img-btn {
+    display: none;
+    height: 60px;
+    padding-top: 20px;
+}
+
+.media__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #32495E;
+    opacity: 0.6;
+    transition: opacity .2s ease-in-out;
+}
+
+.media__item:hover .media__background {
+    opacity: 0;
+}
+
+.media__item:hover .media__img-btn {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -80px;
+    margin-top: -25px;
+    background: #32495E;
+    opacity: 0.6;
+}
+
+.media__item:hover .media__text {
+    display: none;
+}
+
+.media__item>.btn:hover {
+    color: #fff;
+}
+
+.media__text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    padding-right: 20px;
+    margin: 0;
+    font-family: 'TTHoves-Regular', 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: #F9F9F9;
+
 }
 
 .light__btn {
@@ -694,6 +758,7 @@ html {
     padding-top: 50px;
 }
 
+/*********************************** media end ***********************************/
 
 .news__cards {
     margin-top: 40px;
@@ -830,6 +895,8 @@ html {
 }
 
 /* recommend end */
+
+/*********************************** contacts ***********************************/
 .contacts {
     background-color: #F9F9F9;
 }
@@ -862,6 +929,8 @@ html {
 .contacts__item {
     line-height: 24px;
 }
+
+/*********************************** contacts end ***********************************/
 
 .footer {
     background-color: #333333;
