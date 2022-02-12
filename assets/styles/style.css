@@ -109,8 +109,6 @@
     }
 }
 
-
-
 /*header end*/
 
 /*services*/
@@ -296,7 +294,7 @@ ul {
 
     .main__about {
         display: grid;
-        grid-template-columns: 100% 100%;
+        grid-template-rows: 100% 100%;
     }
 
     .main__about__cardio__info {
@@ -305,7 +303,6 @@ ul {
         align-items: flex-start;
         text-align: start;
         box-sizing: border-box;
-        margin-top: 90px;
         margin-bottom: 50px;
         margin-left: 10px;
         color: white;

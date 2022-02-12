@@ -84,6 +84,18 @@
     padding-top: 20px;
 }
 
+.specialists__main-link,
+.specialists__about-link {
+    color: white;
+
+}
+
+.specialists__main-link:hover,
+.specialists__about-link:hover {
+    color: #32495E;
+    text-decoration: none;
+}
+
 /*header end*/
 
 .specialists {
