@@ -161,6 +161,11 @@
     padding-bottom: 50px;
 }
 
+iframe {
+    width: 100%;
+    height: 360px;
+}
+
 .contacts__info {
     display: grid;
     grid-template-columns: 24% 24% 30% 32%;
