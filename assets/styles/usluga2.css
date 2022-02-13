@@ -123,7 +123,7 @@
     font-size: 16px;
     font-weight: 800;
     line-height: 19.92px;
-    font-family: 'TT Hoves', 'Times New Roman', Times, serif;
+    font-family: 'TTHoves-ExtraBold', 'Times New Roman', Times, serif;
     color: #8093AC;
     padding-bottom: 20px;
 }
@@ -138,7 +138,7 @@
     font-size: 16px;
     font-weight: 800;
     line-height: 19.92px;
-    font-family: 'TT Hoves', 'Times New Roman', Times, serif;
+    font-family: 'TTHoves-ExtraBold', 'Times New Roman', Times, serif;
     color: #32495E;
     padding-bottom: 20px;
 }
@@ -147,7 +147,7 @@
     font-size: 14px;
     font-weight: 500;
     line-height: 17.43px;
-    font-family: 'TT Hoves', 'Times New Roman', Times, serif;
+    font-family: 'TTHoves-Medium', 'Times New Roman', Times, serif;
     color: #32495E;
     padding-bottom: 30px;
 }
@@ -156,7 +156,7 @@
     font-size: 14px;
     font-weight: 500;
     line-height: 17.43px;
-    font-family: 'TT Hoves', 'Times New Roman', Times, serif;
+    font-family: 'TTHoves-Medium', 'Times New Roman', Times, serif;
     color: #32495E;
     padding-bottom: 30px;
 }
@@ -191,7 +191,7 @@
     text-align: center;
     line-height: 17px;
     padding-top: 15px;
-    font-family: 'TT Hoves', 'Times New Roman', Times, serif;
+    font-family: 'TTHoves-Medium', 'Times New Roman', Times, serif;
     margin-top: 30px;
 }
 
@@ -213,7 +213,7 @@
 }
 
 .services__block-text {
-    font-family: 'TT Hoves', 'Times New Roman', Times, serif;
+    font-family: 'TTHoves-ExtraBold', 'Times New Roman', Times, serif;
     font-weight: 800;
     font-size: 16px;
     line-height: 19.92px;
@@ -222,7 +222,7 @@
 }
 
 .services__block_text {
-    font-family: 'TT Hoves', 'Times New Roman', Times, serif;
+    font-family: 'TTHoves-Regular', 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 17.43px;
@@ -268,7 +268,7 @@
 
 .qa__container_question li {
     list-style-type: none;
-    font-family: 'TT Hoves', 'Times New Roman', Times, serif;
+    font-family: 'TTHoves-ExtraBold', 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: 800;
     font-size: 16px;
@@ -277,7 +277,7 @@
 }
 
 .qa__container_ask {
-    font-family: 'TT Hoves', 'Times New Roman', Times, serif;
+    font-family: 'TTHoves-ExtraBold', 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: 800;
     font-size: 16px;
@@ -286,7 +286,7 @@
 }
 
 .qa__container_question-text {
-    font-family: 'TT Hoves', 'Times New Roman', Times, serif;
+    font-family: 'TTHoves-Regular', 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
