@@ -816,21 +816,32 @@ html {
     padding-bottom: 40px;
 }
 
+.qa {
+    background-color: #32495E;
+}
+
+.qa__empty-space {
+    height: 60px;
+}
+
 .qa__container {
     background-color: #32495E;
     padding-bottom: 20px;
 }
 
 .qa__header {
-    background-color: #49647D;
-    margin-left: -10%;
-    margin-right: -15px;
     margin-bottom: 38px;
-    padding-left: 20%;
+    /* margin-left: -10%;
+    margin-right: -15px;  
+    padding-left: 20%;*/
 }
 
 .qa__container_trait {
-    padding-top: 60px;
+    background-color: #49647D;
+}
+
+.qa__container_question-list {
+    padding-left: 0;
 }
 
 .qa__container_question li {
@@ -841,7 +852,9 @@ html {
     font-size: 16px;
     line-height: 2.5;
     color: #F9F9F9;
+
 }
+
 
 .qa__container_ask {
     font-family: 'TTHoves-ExtraBold', 'Times New Roman', Times, serif;
