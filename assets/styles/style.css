@@ -282,6 +282,10 @@ ul {
     color: black;
 }
 
+.travm__list {
+    list-style-type: circle;
+}
+
 @media screen and (max-width:425px) {
 
     .сardio__photo {
