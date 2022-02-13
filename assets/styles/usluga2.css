@@ -68,6 +68,10 @@
     color: white;
 }
 
+.header__nav-name {
+    color: white;
+}
+
 .header {
     background-image: url(../images/usluga2_main_img.png);
     background-repeat: no-repeat;

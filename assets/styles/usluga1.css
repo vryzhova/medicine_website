@@ -66,6 +66,10 @@
     color: #32495E;
 }
 
+.header__nav-name {
+    color: #32495E;
+}
+
 .header {
     background-image: url(../images/usluga1_main_img.png);
     background-repeat: no-repeat;
