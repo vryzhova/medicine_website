@@ -26,12 +26,14 @@
     font-family: TTHoves-ExtraBold;
     font-size: calc(20px + 20* (100vw / 1280));
     color: #32495E;
+    text-transform: uppercase;
 }
 
 .title__white {
     font-family: TTHoves-ExtraBold;
     font-size: calc(20px + 20* (100vw / 1280));
     color: #ffffff;
+    text-transform: uppercase;
 }
 
 /*header*/
