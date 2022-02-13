@@ -830,7 +830,7 @@ html {
 }
 
 .qa__header {
-    margin-bottom: 38px;
+    margin-bottom: 0px;
     /* margin-left: -10%;
     margin-right: -15px;  
     padding-left: 20%;*/
@@ -838,10 +838,13 @@ html {
 
 .qa__container_trait {
     background-color: #49647D;
+    padding: 10px 0;
+    margin-bottom: 40px;
 }
 
 .qa__container_question-list {
     padding-left: 0;
+    padding-top: 0;
 }
 
 .qa__container_question li {
