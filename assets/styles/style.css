@@ -851,8 +851,6 @@ html {
     list-style-type: none;
     font-family: 'TTHoves-ExtraBold', 'Times New Roman', Times, serif;
     font-style: normal;
-    font-weight: 800;
-    font-size: 16px;
     line-height: 2.5;
     color: #F9F9F9;
 
@@ -862,8 +860,6 @@ html {
 .qa__container_ask {
     font-family: 'TTHoves-ExtraBold', 'Times New Roman', Times, serif;
     font-style: normal;
-    font-weight: 800;
-    font-size: 16px;
     color: #F9F9F9;
     padding-left: 90px;
 }
@@ -885,7 +881,7 @@ html {
 }
 
 .qa__container_question-1 {
-    margin-top: 25.5px;
+    margin-top: 22.5px;
 }
 
 .img:hover {
